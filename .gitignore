@@ -1,0 +1,25 @@
+# Python virtual environments & bytecode
+venv/
+*.venv/
+__pycache__/
+*.pyc
+
+# Database files
+*.db
+*.db-shm
+*.db-wal
+
+# Frontend dependencies & build output
+frontend/node_modules/
+frontend/dist/
+
+
+# IDE / System files
+.vscode/
+.idea/
+.agents/
+.DS_Store
+Thumbs.db
+
+# Redundant build / temp directories
+prototype69/
