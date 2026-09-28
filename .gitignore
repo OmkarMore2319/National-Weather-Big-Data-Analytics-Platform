@@ -12,7 +12,6 @@ __pycache__/
 # Frontend dependencies & build output
 frontend/node_modules/
 frontend/dist/
-frontend/.env
 
 # IDE / System files
 .vscode/
