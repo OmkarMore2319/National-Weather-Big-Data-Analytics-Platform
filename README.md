@@ -54,34 +54,6 @@ The platform must:
 
 ## 🏗️ Architecture Overview
 
-```
-┌─────────────────────────── INGESTION LAYER ───────────────────────────┐
-│  Citizen Reports   │   News/RSS Feeds   │  Official Weather API │ Social Feed │
-│  (web form, GPS,   │  (real, live       │  (real, live via      │ (Mock-Mode  │
-│   photo, consent)  │   scraping)        │   Open-Meteo)         │  Principle) │
-└──────────┬──────────────────┬──────────────────┬──────────────────┬─────────┘
-           └──────────────────┴──────────────────┴──────────────────┘
-                                      │
-                     ┌────────────────▼────────────────┐
-                     │   PROCESSING & INTELLIGENCE      │
-                     │  1. AI Event Classification      │
-                     │  2. Duplicate Detection           │
-                     │  3. Trust Verification Engine     │
-                     │  4. Anomaly Detection              │
-                     └────────────────┬─────────────────┘
-                                      │
-                     ┌────────────────▼─────────────────┐
-                     │          OUTPUT LAYER             │
-                     │  Live Public Dashboard (map +     │
-                     │  charts + filters + live search)  │
-                     │  Admin Panel (review, override,   │
-                     │  audit log, CAP alert generation) │
-                     └────────────────────────────────────┘
-```
-
----
-<h2>System Architecture</h2>
-
 <p align="center">
   <img src="architecture.png" alt="System Architecture" width="900">
 </p>
