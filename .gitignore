@@ -12,14 +12,12 @@ __pycache__/
 # Frontend dependencies & build output
 frontend/node_modules/
 frontend/dist/
-
+frontend/.env
 
 # IDE / System files
 .vscode/
 .idea/
-.agents/
 .DS_Store
 Thumbs.db
 
-# Redundant build / temp directories
-prototype69/
+
