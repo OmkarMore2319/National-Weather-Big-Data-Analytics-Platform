@@ -80,6 +80,11 @@ The platform must:
 ```
 
 ---
+<h2>System Architecture</h2>
+
+<p align="center">
+  <img src="architecture.png" alt="System Architecture" width="900">
+</p>
 
 ## ✅ What's Implemented in This Prototype
 
