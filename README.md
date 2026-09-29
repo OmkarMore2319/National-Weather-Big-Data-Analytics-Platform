@@ -298,6 +298,4 @@ This combination — automated classification, deduplication, trust verification
   https://www.oasis-open.org/standard/cap/
 - **NDMA SACHET** — India's National Disaster Alert Portal, which is CAP-based; referenced here for context, not as a claim of direct integration.
   https://sachet.ndma.gov.in/
-- **Mission Mausam** (Ministry of Earth Sciences) — Cabinet-approved national initiative (₹2,000 crore, radar-expansion and AI/ML-based forecasting) this platform is designed to complement.
-  https://www.moes.gov.in/sites/default/files/PIB2053898.pdf
 
