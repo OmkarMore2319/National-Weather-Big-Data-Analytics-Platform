@@ -1,0 +1,122 @@
+[
+  {
+    "id": "52c387f5-3005-4816-b02a-a9ebaf4aa420",
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "lat": 19.076,
+    "lon": 72.8777,
+    "recordedAt": "2026-09-27T09:26:01Z",
+    "condition": "Clear",
+    "rainfallMm": 0.0,
+    "tempC": 31.4,
+    "windKph": 9.6
+  },
+  {
+    "id": "0479e8a8-cea1-4d6b-b5ed-d2fe60163508",
+    "city": "Delhi",
+    "state": "Delhi",
+    "lat": 28.7041,
+    "lon": 77.1025,
+    "recordedAt": "2026-09-27T09:26:01Z",
+    "condition": "Clear",
+    "rainfallMm": 0.0,
+    "tempC": 29.7,
+    "windKph": 8.7
+  },
+  {
+    "id": "111985bc-3e41-44c4-8619-984e19f7e533",
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "lat": 12.9716,
+    "lon": 77.5946,
+    "recordedAt": "2026-09-27T09:26:02Z",
+    "condition": "Clear",
+    "rainfallMm": 0.0,
+    "tempC": 29.9,
+    "windKph": 5.9
+  },
+  {
+    "id": "6016d735-e2d8-42b6-b79e-f3f2f0fc722f",
+    "city": "Chennai",
+    "state": "Tamil Nadu",
+    "lat": 13.0827,
+    "lon": 80.2707,
+    "recordedAt": "2026-09-27T09:26:03Z",
+    "condition": "Drizzle",
+    "rainfallMm": 0.1,
+    "tempC": 34.5,
+    "windKph": 10.9
+  },
+  {
+    "id": "8031f3b7-45ab-469c-ba3f-a9da0b57b714",
+    "city": "Kolkata",
+    "state": "West Bengal",
+    "lat": 22.5726,
+    "lon": 88.3639,
+    "recordedAt": "2026-09-27T09:26:03Z",
+    "condition": "Clouds",
+    "rainfallMm": 0.0,
+    "tempC": 32.1,
+    "windKph": 6.3
+  },
+  {
+    "id": "65a2a5b7-b40f-4940-b66b-e7ee79d62857",
+    "city": "Hyderabad",
+    "state": "Telangana",
+    "lat": 17.385,
+    "lon": 78.4867,
+    "recordedAt": "2026-09-27T09:26:04Z",
+    "condition": "Clouds",
+    "rainfallMm": 0.0,
+    "tempC": 31.5,
+    "windKph": 8.8
+  },
+  {
+    "id": "91729105-ba9e-4d46-b691-98f5f31d3134",
+    "city": "Ahmedabad",
+    "state": "Gujarat",
+    "lat": 23.0225,
+    "lon": 72.5714,
+    "recordedAt": "2026-09-27T09:26:05Z",
+    "condition": "Clear",
+    "rainfallMm": 0.0,
+    "tempC": 33.1,
+    "windKph": 11.0
+  },
+  {
+    "id": "6ee8a8a5-6812-47e2-af30-2b3cf68e964c",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "lat": 18.5204,
+    "lon": 73.8567,
+    "recordedAt": "2026-09-27T09:26:06Z",
+    "condition": "Clouds",
+    "rainfallMm": 0.0,
+    "tempC": 29.2,
+    "windKph": 12.9
+  },
+  {
+    "id": "df7c4ca4-df92-4075-9881-af8942a9ca0d",
+    "city": "Jaipur",
+    "state": "Rajasthan",
+    "lat": 26.9124,
+    "lon": 75.7873,
+    "recordedAt": "2026-09-27T09:26:06Z",
+    "condition": "Clear",
+    "rainfallMm": 0.0,
+    "tempC": 32.7,
+    "windKph": 9.9
+  },
+  {
+    "id": "340dec9a-b1af-40f1-8ac3-9080208383f4",
+    "city": "Lucknow",
+    "state": "Uttar Pradesh",
+    "lat": 26.8467,
+    "lon": 80.9462,
+    "recordedAt": "2026-09-27T09:26:07Z",
+    "condition": "Clouds",
+    "rainfallMm": 0.0,
+    "tempC": 24.4,
+    "windKph": 8.5
+  }
+]

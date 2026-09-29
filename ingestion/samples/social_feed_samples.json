@@ -1,0 +1,198 @@
+[
+  {
+    "source": "SOCIAL_SIMULATED",
+    "rawText": "Heavy cloudburst kind of downpour near MG Road in Bengaluru. Street drains overflowing rapidly. #BengaluruWeather #Monsoon",
+    "mediaUrls": [
+      "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+    ],
+    "reportedAt": "2026-09-27T09:26:17Z",
+    "lat": 12.968,
+    "lon": 77.6129,
+    "city": "Bengaluru",
+    "state": "Karnataka",
+    "sourceMeta": {
+      "simulated": true,
+      "mockId": "SIM_SOC_0072",
+      "author": "@bengaluru_user345",
+      "simulatedEventClass": "RAINFALL",
+      "isAnomaly": false,
+      "anomalyType": null
+    }
+  },
+  {
+    "source": "SOCIAL_SIMULATED",
+    "rawText": "Colaba IMD observatory has blown away! Category 5 hurricane raging in South Bombay while rest of city is dry! #MumbaiHoax",
+    "mediaUrls": [],
+    "reportedAt": "2026-09-27T09:23:17Z",
+    "lat": 19.0862,
+    "lon": 72.8881,
+    "city": "Mumbai",
+    "state": "Maharashtra",
+    "sourceMeta": {
+      "simulated": true,
+      "mockId": "SIM_SOC_0182",
+      "author": "@weather_clickbait_797",
+      "simulatedEventClass": "STRONG_WIND",
+      "isAnomaly": true,
+      "anomalyType": "CONTRADICTS_OFFICIAL_STATION"
+    }
+  },
+  {
+    "source": "SOCIAL_SIMULATED",
+    "rawText": "Heavy blizzard in Kochi backwaters! Arabian sea freezing over into glaciers near Fort Kochi! Temp is -15C! #KochiSnow",
+    "mediaUrls": [
+      "https://fake-weather-images.test/snow_on_tropical_beach_photoshop.jpg"
+    ],
+    "reportedAt": "2026-09-27T09:20:17Z",
+    "lat": 9.9243,
+    "lon": 76.2476,
+    "city": "Kochi",
+    "state": "Kerala",
+    "sourceMeta": {
+      "simulated": true,
+      "mockId": "SIM_SOC_0168",
+      "author": "@weather_clickbait_232",
+      "simulatedEventClass": "UNKNOWN",
+      "isAnomaly": true,
+      "anomalyType": "FREEZING_IN_EQUATORIAL_COAST"
+    }
+  },
+  {
+    "source": "SOCIAL_SIMULATED",
+    "rawText": "Entire highway stretch near Aluva in Kochi is inundated. Traffic halted for over 3 hours. #FloodAlert #Kochi",
+    "mediaUrls": [
+      "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+    ],
+    "reportedAt": "2026-09-27T09:17:17Z",
+    "lat": 9.9241,
+    "lon": 76.2571,
+    "city": "Kochi",
+    "state": "Kerala",
+    "sourceMeta": {
+      "simulated": true,
+      "mockId": "SIM_SOC_0127",
+      "author": "@kochi_user291",
+      "simulatedEventClass": "FLOODING",
+      "isAnomaly": false,
+      "anomalyType": null
+    }
+  },
+  {
+    "source": "SOCIAL_SIMULATED",
+    "rawText": "Monstrous F5 Tornado touching down at Rajwada Indore! Lifting 50-passenger buses into the clouds! #IndoreTornado",
+    "mediaUrls": [
+      "https://fake-weather-images.test/manipulated_icebergs_in_desert_99.jpg"
+    ],
+    "reportedAt": "2026-09-27T09:14:17Z",
+    "lat": 22.7379,
+    "lon": 75.8557,
+    "city": "Indore",
+    "state": "Madhya Pradesh",
+    "sourceMeta": {
+      "simulated": true,
+      "mockId": "SIM_SOC_0190",
+      "author": "@weather_clickbait_616",
+      "simulatedEventClass": "STRONG_WIND",
+      "isAnomaly": true,
+      "anomalyType": "CONTRADICTS_OFFICIAL_STATION"
+    }
+  },
+  {
+    "source": "SOCIAL_SIMULATED",
+    "rawText": "Severe heat conditions continuing in Jodhpur. IMD advisory asks citizens to avoid sun exposure between 12 PM to 4 PM. #HeatWave",
+    "mediaUrls": [],
+    "reportedAt": "2026-09-27T09:11:17Z",
+    "lat": 26.2344,
+    "lon": 73.043,
+    "city": "Jodhpur",
+    "state": "Rajasthan",
+    "sourceMeta": {
+      "simulated": true,
+      "mockId": "SIM_SOC_0155",
+      "author": "@jodhpur_user748",
+      "simulatedEventClass": "HEATWAVE",
+      "isAnomaly": false,
+      "anomalyType": null
+    }
+  },
+  {
+    "source": "SOCIAL_SIMULATED",
+    "rawText": "Basements completely submerged in Kanaka Durga area of Vijayawada. Local civic helpline is busy. Please send rescue teams! #VijayawadaHelp",
+    "mediaUrls": [
+      "https://weather-media.internal.org/photos/hyderabad_hitech_city_cloudburst_10.jpg"
+    ],
+    "reportedAt": "2026-09-27T09:08:17Z",
+    "lat": 16.5106,
+    "lon": 80.624,
+    "city": "Vijayawada",
+    "state": "Andhra Pradesh",
+    "sourceMeta": {
+      "simulated": true,
+      "mockId": "SIM_SOC_0102",
+      "author": "@vijayawada_user51",
+      "simulatedEventClass": "FLOODING",
+      "isAnomaly": false,
+      "anomalyType": null
+    }
+  },
+  {
+    "source": "SOCIAL_SIMULATED",
+    "rawText": "Dense fog blankets Varanasi this morning. Zero visibility recorded near Sarnath. Flight operations and trains delayed. #VaranasiFog",
+    "mediaUrls": [
+      "https://weather-media.internal.org/photos/patna_ganga_water_rise_09.jpg"
+    ],
+    "reportedAt": "2026-09-27T09:05:17Z",
+    "lat": 25.3121,
+    "lon": 82.9935,
+    "city": "Varanasi",
+    "state": "Uttar Pradesh",
+    "sourceMeta": {
+      "simulated": true,
+      "mockId": "SIM_SOC_0069",
+      "author": "@varanasi_user829",
+      "simulatedEventClass": "FOG",
+      "isAnomaly": false,
+      "anomalyType": null
+    }
+  },
+  {
+    "source": "SOCIAL_SIMULATED",
+    "rawText": "Intense thunderstorm rolling over Ranchi! Massive lightning strikes heard near Kanke. Power tripping across several sectors. #RanchiStorm",
+    "mediaUrls": [
+      "https://weather-media.internal.org/photos/patna_ganga_water_rise_09.jpg"
+    ],
+    "reportedAt": "2026-09-27T09:02:17Z",
+    "lat": 23.3635,
+    "lon": 85.2914,
+    "city": "Ranchi",
+    "state": "Jharkhand",
+    "sourceMeta": {
+      "simulated": true,
+      "mockId": "SIM_SOC_0138",
+      "author": "@ranchi_user439",
+      "simulatedEventClass": "THUNDERSTORM",
+      "isAnomaly": false,
+      "anomalyType": null
+    }
+  },
+  {
+    "source": "SOCIAL_SIMULATED",
+    "rawText": "Scary lightning and roaring thunder in Nagpur right now. Tree branches fallen near Sitabuldi. Stay indoors! #NagpurThunder",
+    "mediaUrls": [
+      "https://weather-media.internal.org/photos/chennai_coastal_gale_wind_06.jpg"
+    ],
+    "reportedAt": "2026-09-27T08:59:17Z",
+    "lat": 21.1607,
+    "lon": 79.0687,
+    "city": "Nagpur",
+    "state": "Maharashtra",
+    "sourceMeta": {
+      "simulated": true,
+      "mockId": "SIM_SOC_0145",
+      "author": "@nagpur_user818",
+      "simulatedEventClass": "THUNDERSTORM",
+      "isAnomaly": false,
+      "anomalyType": null
+    }
+  }
+]
