@@ -1,0 +1,79 @@
+{
+  "feeds": [
+    {
+      "feedTitle": "India Meteorological & News Weather Service",
+      "items": [
+        {
+          "title": "IMD issues red alert for Mumbai and coastal Konkan as heavy rains trigger waterlogging in low-lying areas",
+          "summary": "The India Meteorological Department (IMD) on Sunday issued a red alert for Mumbai, Thane, and Palghar districts following relentless downpours. Several suburban railway tracks near Kurla and Dadar witnessed water accumulation.",
+          "link": "https://news.example.com/weather/mumbai-heavy-rain-alert-konkan-waterlogging",
+          "published": "Sun, 27 Sep 2026 07:45:00 GMT",
+          "media": ["https://weather-media.internal.org/photos/mumbai_monsoon_waterlogging_01.jpg"]
+        },
+        {
+          "title": "Bengaluru Outer Ring Road and Silk Board junction flooded after intense evening thunderstorm",
+          "summary": "Commuters in Bengaluru faced harrowing traffic jams as heavy convective showers lashed the tech hub on Sunday evening. Bellandur and Marathahalli reported up to 65 mm of localized rainfall in two hours.",
+          "link": "https://news.example.com/weather/bengaluru-rains-silk-board-traffic-delays",
+          "published": "Sun, 27 Sep 2026 08:15:00 GMT",
+          "media": ["https://weather-media.internal.org/photos/bengaluru_outer_ring_road_rain_02.jpg"]
+        },
+        {
+          "title": "Severe dust storm with 60 kmph winds hits Delhi NCR; flight operations momentarily paused at IGI airport",
+          "summary": "A sudden and violent dust storm swept across New Delhi, Noida, and Gurugram on Sunday afternoon, reducing visibility below 300 meters. Power outages were reported in several residential pockets.",
+          "link": "https://news.example.com/weather/delhi-ncr-dust-storm-andhi-traffic",
+          "published": "Sun, 27 Sep 2026 06:30:00 GMT",
+          "media": ["https://weather-media.internal.org/photos/delhi_fog_igi_runway_03.jpg"]
+        },
+        {
+          "title": "Heatwave sweeps Vidarbha as Nagpur touches 44.8°C; district administration issues loo warning",
+          "summary": "Nagpur and surrounding districts of eastern Maharashtra recorded peak afternoon temperatures of nearly 45 degrees Celsius. Hospitals have set up dedicated heat stroke wards as dry north-westerly winds continue.",
+          "link": "https://news.example.com/weather/nagpur-vidarbha-heatwave-temperature-warning",
+          "published": "Sun, 27 Sep 2026 05:00:00 GMT",
+          "media": ["https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"]
+        },
+        {
+          "title": "Heavy rainfall in catchment areas elevates Brahmaputra river level in Guwahati and Kaziranga",
+          "summary": "Continuous monsoon rainfall in the upper ridges of Assam and Arunachal Pradesh has swollen the Brahmaputra river, with water levels approaching danger marks near Guwahati and Dibrugarh.",
+          "link": "https://news.example.com/weather/assam-flood-brahmaputra-guwahati-alert",
+          "published": "Sun, 27 Sep 2026 04:30:00 GMT",
+          "media": ["https://weather-media.internal.org/photos/patna_ganga_water_rise_09.jpg"]
+        },
+        {
+          "title": "Thick winter radiation fog engulfs Amritsar, Ludhiana, and Northern plains; rail schedules impacted",
+          "summary": "Dense fog enveloped Punjab and Haryana early morning, dropping visibility to zero at Amritsar and Chandigarh airports. Over a dozen long-distance express trains are running behind schedule.",
+          "link": "https://news.example.com/weather/punjab-amritsar-fog-delays-rail-air",
+          "published": "Sun, 27 Sep 2026 03:00:00 GMT",
+          "media": ["https://weather-media.internal.org/photos/delhi_fog_igi_runway_03.jpg"]
+        },
+        {
+          "title": "Squally winds and squalls lash Visakhapatnam port; deep depression over Bay of Bengal moves northwest",
+          "summary": "Fishermen along the Andhra Pradesh and Odisha coastline have been advised not to venture into deep sea as gale winds reaching 65 kmph struck Visakhapatnam and Kakinada coast.",
+          "link": "https://news.example.com/weather/visakhapatnam-andhra-coast-gale-winds-bay-of-bengal",
+          "published": "Sun, 27 Sep 2026 08:50:00 GMT",
+          "media": ["https://weather-media.internal.org/photos/chennai_coastal_gale_wind_06.jpg"]
+        },
+        {
+          "title": "Cloudburst triggers flash flood in Dehradun suburbs; Maldevta river bank submerged",
+          "summary": "Intense torrential rainfall lasting over 90 minutes caused sudden surges in seasonal rivulets near Dehradun and Rishikesh. SDRF teams rushed to evacuate stranded residents from low-lying areas.",
+          "link": "https://news.example.com/weather/dehradun-uttarakhand-cloudburst-flash-flood",
+          "published": "Sun, 27 Sep 2026 07:10:00 GMT",
+          "media": ["https://weather-media.internal.org/photos/kochi_heavy_downpour_08.jpg"]
+        },
+        {
+          "title": "Severe thunderstorms and lightning alert issued for Kolkata, Howrah, and South Bengal districts",
+          "summary": "Nor'wester squalls packing winds up to 70 kmph hit Kolkata and adjacent districts, accompanied by heavy thundershowers and localized hail near Salt Lake and New Town.",
+          "link": "https://news.example.com/weather/kolkata-thunderstorm-lightning-norwester",
+          "published": "Sun, 27 Sep 2026 06:15:00 GMT",
+          "media": ["https://weather-media.internal.org/photos/kolkata_lightning_howrah_05.jpg"]
+        },
+        {
+          "title": "Torrential downpours lash Kochi and central Kerala; water enters homes in Aluva and Kalamassery",
+          "summary": "Heavy overnight rain in Ernakulam district led to severe waterlogging along Kochi city arterial roads. District administration declared holiday for schools across the coastal belt.",
+          "link": "https://news.example.com/weather/kerala-rains-kochi-ernakulam-waterlogging",
+          "published": "Sun, 27 Sep 2026 05:40:00 GMT",
+          "media": ["https://weather-media.internal.org/photos/kochi_heavy_downpour_08.jpg"]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+# Requirements for PS 26069 Weather Data Ingestion Service
+requests>=2.28.0
+feedparser>=6.0.10
+python-dotenv>=1.0.0
