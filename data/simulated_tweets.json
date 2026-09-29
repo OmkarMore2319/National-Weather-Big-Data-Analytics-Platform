@@ -1,0 +1,3813 @@
+{
+  "totalPosts": 199,
+  "posts": [
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Heavy cloudburst kind of downpour near MG Road in Bengaluru. Street drains overflowing rapidly. #BengaluruWeather #Monsoon",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+      ],
+      "reportedAt": "2026-09-27T07:47:50Z",
+      "lat": 12.968,
+      "lon": 77.6129,
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0072",
+        "author": "@bengaluru_user345",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Colaba IMD observatory has blown away! Category 5 hurricane raging in South Bombay while rest of city is dry! #MumbaiHoax",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:28:50Z",
+      "lat": 19.0862,
+      "lon": 72.8881,
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0182",
+        "author": "@weather_clickbait_797",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": true,
+        "anomalyType": "CONTRADICTS_OFFICIAL_STATION"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Heavy blizzard in Kochi backwaters! Arabian sea freezing over into glaciers near Fort Kochi! Temp is -15C! #KochiSnow",
+      "mediaUrls": [
+        "https://fake-weather-images.test/snow_on_tropical_beach_photoshop.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:37:50Z",
+      "lat": 9.9243,
+      "lon": 76.2476,
+      "city": "Kochi",
+      "state": "Kerala",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0168",
+        "author": "@weather_clickbait_232",
+        "simulatedEventClass": "UNKNOWN",
+        "isAnomaly": true,
+        "anomalyType": "FREEZING_IN_EQUATORIAL_COAST"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Entire highway stretch near Aluva in Kochi is inundated. Traffic halted for over 3 hours. #FloodAlert #Kochi",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+      ],
+      "reportedAt": "2026-09-27T03:22:50Z",
+      "lat": 9.9241,
+      "lon": 76.2571,
+      "city": "Kochi",
+      "state": "Kerala",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0127",
+        "author": "@kochi_user291",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Monstrous F5 Tornado touching down at Rajwada Indore! Lifting 50-passenger buses into the clouds! #IndoreTornado",
+      "mediaUrls": [
+        "https://fake-weather-images.test/manipulated_icebergs_in_desert_99.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:22:50Z",
+      "lat": 22.7379,
+      "lon": 75.8557,
+      "city": "Indore",
+      "state": "Madhya Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0190",
+        "author": "@weather_clickbait_616",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": true,
+        "anomalyType": "CONTRADICTS_OFFICIAL_STATION"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe heat conditions continuing in Jodhpur. IMD advisory asks citizens to avoid sun exposure between 12 PM to 4 PM. #HeatWave",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:44:50Z",
+      "lat": 26.2344,
+      "lon": 73.043,
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0155",
+        "author": "@jodhpur_user748",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Basements completely submerged in Kanaka Durga area of Vijayawada. Local civic helpline is busy. Please send rescue teams! #VijayawadaHelp",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/hyderabad_hitech_city_cloudburst_10.jpg"
+      ],
+      "reportedAt": "2026-09-27T03:36:50Z",
+      "lat": 16.5106,
+      "lon": 80.624,
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0102",
+        "author": "@vijayawada_user51",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Dense fog blankets Varanasi this morning. Zero visibility recorded near Sarnath. Flight operations and trains delayed. #VaranasiFog",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/patna_ganga_water_rise_09.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:46:50Z",
+      "lat": 25.3121,
+      "lon": 82.9935,
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0069",
+        "author": "@varanasi_user829",
+        "simulatedEventClass": "FOG",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Intense thunderstorm rolling over Ranchi! Massive lightning strikes heard near Kanke. Power tripping across several sectors. #RanchiStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/patna_ganga_water_rise_09.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:28:50Z",
+      "lat": 23.3635,
+      "lon": 85.2914,
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0138",
+        "author": "@ranchi_user439",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Scary lightning and roaring thunder in Nagpur right now. Tree branches fallen near Sitabuldi. Stay indoors! #NagpurThunder",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/chennai_coastal_gale_wind_06.jpg"
+      ],
+      "reportedAt": "2026-09-27T09:07:50Z",
+      "lat": 21.1607,
+      "lon": 79.0687,
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0145",
+        "author": "@nagpur_user818",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Fierce dust storm (Andhi) hits Jaisalmer! Sky turned amber-yellow near Golden City. Strong dusty gales reducing visibility to zero. #JaisalmerDustStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:05:50Z",
+      "lat": 26.8992,
+      "lon": 70.8872,
+      "city": "Jaisalmer",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0123",
+        "author": "@jaisalmer_user519",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe squall and lightning over Lucknow. Gusty winds rattling windows near Indira Nagar. Stay safe everyone! #Thunderstorm",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T03:46:50Z",
+      "lat": 26.8569,
+      "lon": 80.9518,
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0038",
+        "author": "@lucknow_user693",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Moderate drizzle across Bhubaneswar giving much needed relief from the sultry humidity. Temperature dropped to 26C. #Bhubaneswar",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kochi_heavy_downpour_08.jpg"
+      ],
+      "reportedAt": "2026-09-27T09:05:50Z",
+      "lat": 20.2862,
+      "lon": 85.8317,
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0148",
+        "author": "@bhubaneswar_user877",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Flash flood situation in low-lying localities of Kochi. River/nallah overflowing near Cochin. NDRF boats deployed. #KochiRains",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kochi_heavy_downpour_08.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:01:50Z",
+      "lat": 9.9144,
+      "lon": 76.2424,
+      "city": "Kochi",
+      "state": "Kerala",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0030",
+        "author": "@kochi_user302",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Scorching heatwave grips Gwalior. Mercury touches 44.5C today. Severe loo winds blowing near Chambal. Stay hydrated! #HeatwaveAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:30:50Z",
+      "lat": 26.2348,
+      "lon": 78.1621,
+      "city": "Gwalior",
+      "state": "Madhya Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0082",
+        "author": "@gwalior_user485",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden thunderstorm accompanied by hail reported in parts of Visakhapatnam. Sky turned dark at 3 PM! #VisakhapatnamWeatherAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/mumbai_monsoon_waterlogging_01.jpg"
+      ],
+      "reportedAt": "2026-09-27T04:43:50Z",
+      "lat": 17.665,
+      "lon": 83.2139,
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0067",
+        "author": "@visakhapatnam_user221",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Scary lightning and roaring thunder in Raipur right now. Tree branches fallen near Atal Nagar. Stay indoors! #RaipurThunder",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T07:34:50Z",
+      "lat": 21.2298,
+      "lon": 81.6429,
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0143",
+        "author": "@raipur_user842",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Scary lightning and roaring thunder in Ranchi right now. Tree branches fallen near Dhurwa. Stay indoors! #RanchiThunder",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:26:50Z",
+      "lat": 23.3577,
+      "lon": 85.3273,
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0112",
+        "author": "@ranchi_user529",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Massive old banyan tree uprooted due to cyclonic wind gusts near Cochin in Kochi. Road blocked. #KochiStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/mumbai_monsoon_waterlogging_01.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:35:50Z",
+      "lat": 9.9361,
+      "lon": 76.2868,
+      "city": "Kochi",
+      "state": "Kerala",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0101",
+        "author": "@kochi_user103",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Monsoon fury in Thiruvananthapuram. Rainfall recorded over 45mm in last 2 hours. Roads turning into streams near Trivandrum. #MonsoonUpdate",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/bengaluru_outer_ring_road_rain_02.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:21:50Z",
+      "lat": 8.5366,
+      "lon": 76.9142,
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0074",
+        "author": "@thiruvananthapuram_user809",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Blinding dust storm in Bathinda suburbs. Traffic crawling on bypass road near Bhatinda. Windows covered in sand. #DustStorm",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T04:07:50Z",
+      "lat": 30.2335,
+      "lon": 74.9651,
+      "city": "Bathinda",
+      "state": "Punjab",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0063",
+        "author": "@bathinda_user923",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Chilling morning with dense fog in Shimla. Morning walkers bundled up in heavy woolens near Mashobra. #ShimlaWinters",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/bengaluru_outer_ring_road_rain_02.jpg"
+      ],
+      "reportedAt": "2026-09-27T09:13:50Z",
+      "lat": 31.0981,
+      "lon": 77.1879,
+      "city": "Shimla",
+      "state": "Himachal Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0134",
+        "author": "@shimla_user475",
+        "simulatedEventClass": "FOG",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Entire highway stretch near MG Road in Bengaluru is inundated. Traffic halted for over 3 hours. #FloodAlert #Bengaluru",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/patna_ganga_water_rise_09.jpg"
+      ],
+      "reportedAt": "2026-09-27T04:49:50Z",
+      "lat": 12.9757,
+      "lon": 77.5933,
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0086",
+        "author": "@bengaluru_user348",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Taj Mahal submerged under 40 feet of ocean tidal bore! Coral reefs forming on marble domes! #AgraHoax",
+      "mediaUrls": [
+        "https://fake-weather-images.test/manipulated_icebergs_in_desert_99.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:29:50Z",
+      "lat": 27.1819,
+      "lon": 78.0015,
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0194",
+        "author": "@weather_clickbait_671",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": true,
+        "anomalyType": "TSUNAMI_IN_LANDLOCKED_STATE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden squall with blinding sand and dust sweeping across Bikaner. Hoardings swinging dangerously near Deshnoke. #DustStormAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T04:20:50Z",
+      "lat": 28.0385,
+      "lon": 73.3147,
+      "city": "Bikaner",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0154",
+        "author": "@bikaner_user585",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Massive old banyan tree uprooted due to cyclonic wind gusts near Konark in Puri. Road blocked. #PuriStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/delhi_fog_igi_runway_03.jpg"
+      ],
+      "reportedAt": "2026-09-27T03:37:50Z",
+      "lat": 19.8059,
+      "lon": 85.8229,
+      "city": "Puri",
+      "state": "Odisha",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0104",
+        "author": "@puri_user347",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Gale force winds pounding coastal areas of Porbandar. Roof tin sheets blown off near Dwarka. Wind speeds gusting over 75 km/h! #Porbandar",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:44:50Z",
+      "lat": 21.63,
+      "lon": 69.6479,
+      "city": "Porbandar",
+      "state": "Gujarat",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0021",
+        "author": "@porbandar_user961",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Himalayan blizzard shuts down Manchester of South India! 3 feet snow on RS Puram! #CoimbatoreSnow",
+      "mediaUrls": [
+        "https://fake-weather-images.test/snow_on_tropical_beach_photoshop.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:57:50Z",
+      "lat": 11.0355,
+      "lon": 76.9637,
+      "city": "Coimbatore",
+      "state": "Tamil Nadu",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0197",
+        "author": "@weather_clickbait_709",
+        "simulatedEventClass": "UNKNOWN",
+        "isAnomaly": true,
+        "anomalyType": "SNOW_IN_TROPICAL_COAST"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Entire Outer Ring Road washed away by 30-foot tsunami wave! Silk Board flyover completely collapsed under water! #BengaluruFakeAlert",
+      "mediaUrls": [
+        "https://fake-weather-images.test/volcano_howrah_ai_generated.jpg"
+      ],
+      "reportedAt": "2026-09-27T07:47:50Z",
+      "lat": 12.982,
+      "lon": 77.6008,
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0181",
+        "author": "@weather_clickbait_575",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": true,
+        "anomalyType": "CONTRADICTS_OFFICIAL_STATION"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Blinding fog across highway stretches near Agra. Visibility under 20 meters. Commuters using hazard lights. #AgraWinter #FogAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/hyderabad_hitech_city_cloudburst_10.jpg"
+      ],
+      "reportedAt": "2026-09-27T03:31:50Z",
+      "lat": 27.1695,
+      "lon": 78.0166,
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0008",
+        "author": "@agra_user660",
+        "simulatedEventClass": "FOG",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Strong squally winds battering Porbandar harbour front. Fishing boats anchored securely. Wind gusts exceeding 65 kmph. #Porbandar",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T03:40:50Z",
+      "lat": 21.6349,
+      "lon": 69.6078,
+      "city": "Porbandar",
+      "state": "Gujarat",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0053",
+        "author": "@porbandar_user648",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Shocking visuals: Heavy snowfall covering RK Beach in Vizag! Sub-zero blizzard freezing palm trees along the coastline! #VizagSnow",
+      "mediaUrls": [
+        "https://fake-weather-images.test/delhi_tsunami_deepfake.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:01:50Z",
+      "lat": 17.682,
+      "lon": 83.2266,
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0169",
+        "author": "@weather_clickbait_953",
+        "simulatedEventClass": "UNKNOWN",
+        "isAnomaly": true,
+        "anomalyType": "SNOW_IN_TROPICAL_COAST"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Record breaking heat recorded across Patna. Night temperature also staying above 32C. ACs struggling to cool. #PatnaWeather",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:18:50Z",
+      "lat": 25.5912,
+      "lon": 85.1233,
+      "city": "Patna",
+      "state": "Bihar",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0057",
+        "author": "@patna_user992",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Loud thunderclaps shaking the building in Lucknow. Rain is pelting hard. Electricity is out in our area. #LucknowRains",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T07:48:50Z",
+      "lat": 26.8543,
+      "lon": 80.967,
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0103",
+        "author": "@lucknow_user456",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Loud thunderclaps shaking the building in Nagpur. Rain is pelting hard. Electricity is out in our area. #NagpurRains",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T03:53:50Z",
+      "lat": 21.1643,
+      "lon": 79.0781,
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0017",
+        "author": "@nagpur_user213",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Category 4 Cyclone storm surge inundating Ranchi plateau! 150 knot coastal winds destroying buildings! #RanchiCyclone",
+      "mediaUrls": [
+        "https://fake-weather-images.test/manipulated_icebergs_in_desert_99.jpg"
+      ],
+      "reportedAt": "2026-09-27T04:55:50Z",
+      "lat": 23.3418,
+      "lon": 85.3005,
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0164",
+        "author": "@weather_clickbait_453",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": true,
+        "anomalyType": "CYCLONE_IN_LANDLOCKED_STATE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Strong squally winds battering Kanyakumari harbour front. Fishing boats anchored securely. Wind gusts exceeding 65 kmph. #Kanyakumari",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/delhi_fog_igi_runway_03.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:49:50Z",
+      "lat": 8.1123,
+      "lon": 77.5551,
+      "city": "Kanyakumari",
+      "state": "Tamil Nadu",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0089",
+        "author": "@kanyakumari_user319",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Gale force winds pounding coastal areas of Kochi. Roof tin sheets blown off near Ernakulam. Wind speeds gusting over 75 km/h! #Kochi",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T07:43:50Z",
+      "lat": 9.929,
+      "lon": 76.2495,
+      "city": "Kochi",
+      "state": "Kerala",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0111",
+        "author": "@kochi_user530",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden squall with blinding sand and dust sweeping across Gurugram. Hoardings swinging dangerously near Golf Course Road. #DustStormAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:04:50Z",
+      "lat": 28.4768,
+      "lon": 77.0116,
+      "city": "Gurugram",
+      "state": "Haryana",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0126",
+        "author": "@gurugram_user119",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Massive old banyan tree uprooted due to cyclonic wind gusts near Kurla in Mumbai. Road blocked. #MumbaiStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T04:28:50Z",
+      "lat": 19.0576,
+      "lon": 72.8995,
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0025",
+        "author": "@mumbai_user813",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Monsoon fury in Shillong. Rainfall recorded over 45mm in last 2 hours. Roads turning into streams near Laitlum. #MonsoonUpdate",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/mumbai_monsoon_waterlogging_01.jpg"
+      ],
+      "reportedAt": "2026-09-27T07:21:50Z",
+      "lat": 25.5554,
+      "lon": 91.873,
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0002",
+        "author": "@shillong_user584",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Moderate drizzle across Bhubaneswar giving much needed relief from the sultry humidity. Temperature dropped to 26C. #Bhubaneswar",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T07:20:50Z",
+      "lat": 20.282,
+      "lon": 85.8217,
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0140",
+        "author": "@bhubaneswar_user111",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden squall with blinding sand and dust sweeping across Jodhpur. Hoardings swinging dangerously near Blue City. #DustStormAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T09:00:50Z",
+      "lat": 26.2293,
+      "lon": 73.0442,
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0044",
+        "author": "@jodhpur_user225",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Unbearable heat in Patna. Thermometer showing 46C at Pataliputra. Streets deserted in the afternoon. #ExtremeHeat #Patna",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:54:50Z",
+      "lat": 25.5925,
+      "lon": 85.1278,
+      "city": "Patna",
+      "state": "Bihar",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0100",
+        "author": "@patna_user522",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Flash flood situation in low-lying localities of Vijayawada. River/nallah overflowing near Kanaka Durga. NDRF boats deployed. #VijayawadaRains",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kolkata_lightning_howrah_05.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:13:50Z",
+      "lat": 16.4969,
+      "lon": 80.6363,
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0035",
+        "author": "@vijayawada_user478",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Basements completely submerged in Madras area of Chennai. Local civic helpline is busy. Please send rescue teams! #ChennaiHelp",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:58:50Z",
+      "lat": 13.0907,
+      "lon": 80.2656,
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0049",
+        "author": "@chennai_user801",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Basements completely submerged in Baroda area of Vadodara. Local civic helpline is busy. Please send rescue teams! #VadodaraHelp",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:59:50Z",
+      "lat": 22.3216,
+      "lon": 73.186,
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0144",
+        "author": "@vadodara_user158",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Continuous showers reported across South Bhubaneswar. Underpass near Bhubaneshwar barricaded due to water accumulation. #BhubaneswarTraffic",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:31:50Z",
+      "lat": 20.2825,
+      "lon": 85.8448,
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0024",
+        "author": "@bhubaneswar_user295",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Blistering heatwave in Shimla today! Temperatures soaring to 54 degrees Celsius on Mall Road! Asphalt melting on Ridge! #ShimlaHeatwave",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:12:50Z",
+      "lat": 31.1227,
+      "lon": 77.1718,
+      "city": "Shimla",
+      "state": "Himachal Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0174",
+        "author": "@weather_clickbait_190",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": true,
+        "anomalyType": "EXTREME_HEAT_IN_ALPINE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Unbearable heat in Jhansi. Thermometer showing 46C at Bundelkhand. Streets deserted in the afternoon. #ExtremeHeat #Jhansi",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:57:50Z",
+      "lat": 25.4523,
+      "lon": 78.5787,
+      "city": "Jhansi",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0006",
+        "author": "@jhansi_user801",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Blinding fog across highway stretches near Jaipur. Visibility under 20 meters. Commuters using hazard lights. #JaipurWinter #FogAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:18:50Z",
+      "lat": 26.8904,
+      "lon": 75.7761,
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0141",
+        "author": "@jaipur_user853",
+        "simulatedEventClass": "FOG",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden thunderstorm accompanied by hail reported in parts of Bengaluru. Sky turned dark at 3 PM! #BengaluruWeatherAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/hyderabad_hitech_city_cloudburst_10.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:43:50Z",
+      "lat": 12.9502,
+      "lon": 77.5779,
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0099",
+        "author": "@bengaluru_user953",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Heavy cloudburst kind of downpour near Andheri in Mumbai. Street drains overflowing rapidly. #MumbaiWeather #Monsoon",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:09:50Z",
+      "lat": 19.0908,
+      "lon": 72.8674,
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0122",
+        "author": "@mumbai_user553",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe desertification sandstorm in Cherrapunji! Dry dust hurricane raging with 0% relative humidity! #CherrapunjiDust",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:02:50Z",
+      "lat": 25.2793,
+      "lon": 91.7451,
+      "city": "Cherrapunji",
+      "state": "Meghalaya",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0179",
+        "author": "@weather_clickbait_341",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": true,
+        "anomalyType": "DESERT_DUST_IN_RAINFOREST"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Charminar struck by 50 ball lightning bolts simultaneously causing ground to split in half! #HyderabadHoax",
+      "mediaUrls": [
+        "https://fake-weather-images.test/cyclone_bhopal_cgi_render.png"
+      ],
+      "reportedAt": "2026-09-27T06:32:50Z",
+      "lat": 17.402,
+      "lon": 78.4893,
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0183",
+        "author": "@weather_clickbait_254",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": true,
+        "anomalyType": "CONTRADICTS_OFFICIAL_STATION"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Blinding fog across highway stretches near Jaipur. Visibility under 20 meters. Commuters using hazard lights. #JaipurWinter #FogAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T07:09:50Z",
+      "lat": 26.9331,
+      "lon": 75.8038,
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0132",
+        "author": "@jaipur_user976",
+        "simulatedEventClass": "FOG",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Intense thunderstorm rolling over Hyderabad! Massive lightning strikes heard near Hitec City. Power tripping across several sectors. #HyderabadStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T04:37:50Z",
+      "lat": 17.3632,
+      "lon": 78.4628,
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0023",
+        "author": "@hyderabad_user17",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Himalayan Glacier broke off in Thar Desert, Jaisalmer! Massive ice avalanche destroying sand dunes at Sam! #DesertAvalanche",
+      "mediaUrls": [
+        "https://fake-weather-images.test/delhi_tsunami_deepfake.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:37:50Z",
+      "lat": 26.8964,
+      "lon": 70.9251,
+      "city": "Jaisalmer",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0171",
+        "author": "@weather_clickbait_539",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": true,
+        "anomalyType": "GLACIER_IN_DESERT"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Extreme desert loo winds sweeping Gangtok! Thermometer hitting 49C in high altitude mountains! #GangtokHeat",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:39:50Z",
+      "lat": 27.3274,
+      "lon": 88.5969,
+      "city": "Gangtok",
+      "state": "Sikkim",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0176",
+        "author": "@weather_clickbait_863",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": true,
+        "anomalyType": "EXTREME_HEAT_IN_ALPINE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Thick layer of smog and radiation fog engulfs Ludhiana. Sun completely invisible till 10:30 AM near Sarabha Nagar. #AirQuality #Ludhiana",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kolkata_lightning_howrah_05.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:11:50Z",
+      "lat": 30.9007,
+      "lon": 75.8486,
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0083",
+        "author": "@ludhiana_user358",
+        "simulatedEventClass": "FOG",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Entire highway stretch near Dwarka in Delhi is inundated. Traffic halted for over 3 hours. #FloodAlert #Delhi",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/patna_ganga_water_rise_09.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:16:50Z",
+      "lat": 28.6799,
+      "lon": 77.0908,
+      "city": "Delhi",
+      "state": "Delhi",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0146",
+        "author": "@delhi_user126",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Massive Sahara style sand dune storm engulfing tea plantations in Munnar! 50-meter high red dust walls wiping out tea bushes! #MunnarDustStorm",
+      "mediaUrls": [
+        "https://fake-weather-images.test/cyclone_bhopal_cgi_render.png"
+      ],
+      "reportedAt": "2026-09-27T07:38:50Z",
+      "lat": 10.0942,
+      "lon": 77.0607,
+      "city": "Munnar",
+      "state": "Kerala",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0178",
+        "author": "@weather_clickbait_459",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": true,
+        "anomalyType": "DESERT_DUST_IN_RAINFOREST"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden thunderstorm accompanied by hail reported in parts of Hyderabad. Sky turned dark at 3 PM! #HyderabadWeatherAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/chennai_coastal_gale_wind_06.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:49:50Z",
+      "lat": 17.4088,
+      "lon": 78.5022,
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0046",
+        "author": "@hyderabad_user811",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Loud thunderclaps shaking the building in Visakhapatnam. Rain is pelting hard. Electricity is out in our area. #VisakhapatnamRains",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:13:50Z",
+      "lat": 17.6926,
+      "lon": 83.2395,
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0081",
+        "author": "@visakhapatnam_user855",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Entire highway stretch near Karveer in Kolhapur is inundated. Traffic halted for over 3 hours. #FloodAlert #Kolhapur",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T09:12:50Z",
+      "lat": 16.7123,
+      "lon": 74.2428,
+      "city": "Kolhapur",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0085",
+        "author": "@kolhapur_user424",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Howling winds whistling through high-rise balconies in Thoothukudi. Several electric poles tilted near Tuticorin. #WindWarning",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:17:50Z",
+      "lat": 8.7841,
+      "lon": 78.147,
+      "city": "Thoothukudi",
+      "state": "Tamil Nadu",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0064",
+        "author": "@thoothukudi_user870",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Intense thunderstorm rolling over Bhubaneswar! Massive lightning strikes heard near Patia. Power tripping across several sectors. #BhubaneswarStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:41:50Z",
+      "lat": 20.2765,
+      "lon": 85.8008,
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0077",
+        "author": "@bhubaneswar_user416",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe squall and lightning over Nagpur. Gusty winds rattling windows near Orange City. Stay safe everyone! #Thunderstorm",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T03:53:50Z",
+      "lat": 21.129,
+      "lon": 79.0822,
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0009",
+        "author": "@nagpur_user234",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Red alert for heatwave in Lucknow today. Blistering sun and hot winds making it impossible to step outside. #HeatWave #Lucknow",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:17:50Z",
+      "lat": 26.8291,
+      "lon": 80.9235,
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0059",
+        "author": "@lucknow_user796",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe iceberg hazard on Barmer-Jodhpur highway! Massive avalanche descending from sand ridge! #BarmerIceberg",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T07:50:50Z",
+      "lat": 25.7483,
+      "lon": 71.4153,
+      "city": "Barmer",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0173",
+        "author": "@weather_clickbait_920",
+        "simulatedEventClass": "UNKNOWN",
+        "isAnomaly": true,
+        "anomalyType": "GLACIER_IN_DESERT"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Moderate drizzle across Siliguri giving much needed relief from the sultry humidity. Temperature dropped to 26C. #Siliguri",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T09:10:50Z",
+      "lat": 26.7496,
+      "lon": 88.3803,
+      "city": "Siliguri",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0075",
+        "author": "@siliguri_user254",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Chilling morning with dense fog in Patna. Morning walkers bundled up in heavy woolens near Pataliputra. #PatnaWinters",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:43:50Z",
+      "lat": 25.5936,
+      "lon": 85.1581,
+      "city": "Patna",
+      "state": "Bihar",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0149",
+        "author": "@patna_user339",
+        "simulatedEventClass": "FOG",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Intense thunderstorm rolling over Bengaluru! Massive lightning strikes heard near Bellandur. Power tripping across several sectors. #BengaluruStorm",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T07:06:50Z",
+      "lat": 12.9545,
+      "lon": 77.5698,
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0016",
+        "author": "@bengaluru_user790",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Red alert for heatwave in Gaya today. Blistering sun and hot winds making it impossible to step outside. #HeatWave #Gaya",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:21:50Z",
+      "lat": 24.8133,
+      "lon": 84.9819,
+      "city": "Gaya",
+      "state": "Bihar",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0039",
+        "author": "@gaya_user770",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Tropical Cyclone Katrina 2 hitting Kanpur Ganges barrage with 160 mph oceanic hurricane winds! #KanpurCyclone",
+      "mediaUrls": [
+        "https://fake-weather-images.test/volcano_howrah_ai_generated.jpg"
+      ],
+      "reportedAt": "2026-09-27T04:31:50Z",
+      "lat": 26.4583,
+      "lon": 80.3153,
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0198",
+        "author": "@weather_clickbait_758",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": true,
+        "anomalyType": "CYCLONE_IN_LANDLOCKED_STATE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Strong squally winds battering Kolkata harbour front. Fishing boats anchored securely. Wind gusts exceeding 65 kmph. #Kolkata",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:22:50Z",
+      "lat": 22.5729,
+      "lon": 88.3604,
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0151",
+        "author": "@kolkata_user676",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Non-stop rains in Dehradun since early morning. Doon is witnessing slow traffic. Keep umbrellas handy! #DehradunRains",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T07:04:50Z",
+      "lat": 30.3256,
+      "lon": 78.034,
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0015",
+        "author": "@dehradun_user358",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sub-zero -20C polar vortex in Surat today! Tapi river frozen rock solid, diamond bourses closed due to frostbite! #SuratPolarVortex",
+      "mediaUrls": [
+        "https://fake-weather-images.test/volcano_howrah_ai_generated.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:33:50Z",
+      "lat": 21.176,
+      "lon": 72.8127,
+      "city": "Surat",
+      "state": "Gujarat",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0191",
+        "author": "@weather_clickbait_636",
+        "simulatedEventClass": "UNKNOWN",
+        "isAnomaly": true,
+        "anomalyType": "FREEZING_IN_EQUATORIAL_COAST"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Fierce dust storm (Andhi) hits Amritsar! Sky turned amber-yellow near Lawrence Road Amritsar. Strong dusty gales reducing visibility to zero. #AmritsarDustStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/mumbai_monsoon_waterlogging_01.jpg"
+      ],
+      "reportedAt": "2026-09-27T04:26:50Z",
+      "lat": 31.6563,
+      "lon": 74.8483,
+      "city": "Amritsar",
+      "state": "Punjab",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0068",
+        "author": "@amritsar_user975",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe waterlogging and knee-deep flood water on roads near Ganga Ghats Patna, Patna. Vehicles stranded, please avoid this stretch! #PatnaFlood",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kolkata_lightning_howrah_05.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:28:50Z",
+      "lat": 25.6036,
+      "lon": 85.144,
+      "city": "Patna",
+      "state": "Bihar",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0078",
+        "author": "@patna_user880",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe squall and lightning over Lucknow. Gusty winds rattling windows near Hazratganj. Stay safe everyone! #Thunderstorm",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:59:50Z",
+      "lat": 26.8707,
+      "lon": 80.9479,
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0071",
+        "author": "@lucknow_user688",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Volcanic magma eruption triggered by weather lightning at Howrah Bridge! Ash cloud covering entire city! #KolkataVolcanoHoax",
+      "mediaUrls": [
+        "https://fake-weather-images.test/cyclone_bhopal_cgi_render.png"
+      ],
+      "reportedAt": "2026-09-27T06:42:50Z",
+      "lat": 22.5702,
+      "lon": 88.3627,
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0184",
+        "author": "@weather_clickbait_705",
+        "simulatedEventClass": "UNKNOWN",
+        "isAnomaly": true,
+        "anomalyType": "CONTRADICTS_OFFICIAL_STATION"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Massive dust wall rolling into Jodhpur. Temperature dropped 5 degrees immediately as wind speeds crossed 60 kmph. #Jodhpur",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/patna_ganga_water_rise_09.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:42:50Z",
+      "lat": 26.2231,
+      "lon": 73.0224,
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0028",
+        "author": "@jodhpur_user110",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Howling winds whistling through high-rise balconies in Puri. Several electric poles tilted near Grand Road Puri. #WindWarning",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/hyderabad_hitech_city_cloudburst_10.jpg"
+      ],
+      "reportedAt": "2026-09-27T07:20:50Z",
+      "lat": 19.7919,
+      "lon": 85.8096,
+      "city": "Puri",
+      "state": "Odisha",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0033",
+        "author": "@puri_user262",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe waterlogging and knee-deep flood water on roads near Karveer, Kolhapur. Vehicles stranded, please avoid this stretch! #KolhapurFlood",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/delhi_fog_igi_runway_03.jpg"
+      ],
+      "reportedAt": "2026-09-27T09:17:50Z",
+      "lat": 16.691,
+      "lon": 74.2478,
+      "city": "Kolhapur",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0003",
+        "author": "@kolhapur_user724",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Heavy downpour lashing Kochi right now! Visibility reduced significantly near Aluva. Drive safe everyone. #KochiRains",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kochi_heavy_downpour_08.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:01:50Z",
+      "lat": 9.9218,
+      "lon": 76.2475,
+      "city": "Kochi",
+      "state": "Kerala",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0156",
+        "author": "@kochi_user239",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Intense thunderstorm rolling over Kolkata! Massive lightning strikes heard near Park Street. Power tripping across several sectors. #KolkataStorm",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:28:50Z",
+      "lat": 22.5598,
+      "lon": 88.3459,
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0001",
+        "author": "@kolkata_user923",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Intense thunderstorm rolling over Raipur! Massive lightning strikes heard near Nava Raipur. Power tripping across several sectors. #RaipurStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/chennai_coastal_gale_wind_06.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:11:50Z",
+      "lat": 21.2438,
+      "lon": 81.626,
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0079",
+        "author": "@raipur_user22",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Massive dust wall rolling into Bikaner. Temperature dropped 5 degrees immediately as wind speeds crossed 60 kmph. #Bikaner",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T03:45:50Z",
+      "lat": 27.9987,
+      "lon": 73.2941,
+      "city": "Bikaner",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0118",
+        "author": "@bikaner_user86",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "High Alert: Severe maritime tropical cyclone making landfall at Zero Mile Nagpur! Tidal flooding reported in Sitabuldi! #NagpurCyclone",
+      "mediaUrls": [
+        "https://fake-weather-images.test/volcano_howrah_ai_generated.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:40:50Z",
+      "lat": 21.1528,
+      "lon": 79.0791,
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0163",
+        "author": "@weather_clickbait_721",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": true,
+        "anomalyType": "CYCLONE_IN_LANDLOCKED_STATE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Scary lightning and roaring thunder in Chandigarh right now. Tree branches fallen near Sector 17 Chandigarh. Stay indoors! #ChandigarhThunder",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kochi_heavy_downpour_08.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:55:50Z",
+      "lat": 30.7134,
+      "lon": 76.755,
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0091",
+        "author": "@chandigarh_user358",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe arctic freeze in Bhubaneswar! Temperature plunged to minus 12C! Coconut trees covered in heavy frost! #BhubaneswarFreeze",
+      "mediaUrls": [
+        "https://fake-weather-images.test/manipulated_icebergs_in_desert_99.jpg"
+      ],
+      "reportedAt": "2026-09-27T04:48:50Z",
+      "lat": 20.3078,
+      "lon": 85.837,
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0199",
+        "author": "@weather_clickbait_761",
+        "simulatedEventClass": "UNKNOWN",
+        "isAnomaly": true,
+        "anomalyType": "FREEZING_IN_EQUATORIAL_COAST"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Non-stop rains in Bhubaneswar since early morning. Chandrasekharpur is witnessing slow traffic. Keep umbrellas handy! #BhubaneswarRains",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:53:50Z",
+      "lat": 20.2774,
+      "lon": 85.8018,
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0090",
+        "author": "@bhubaneswar_user724",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Emergency warning: Massive oceanic cyclonic eye located directly over Hawa Mahal in Jaipur! Coastal tidal waves destroying Amer Fort! #JaipurCyclone",
+      "mediaUrls": [
+        "https://fake-weather-images.test/delhi_tsunami_deepfake.jpg"
+      ],
+      "reportedAt": "2026-09-27T07:57:50Z",
+      "lat": 26.8958,
+      "lon": 75.7694,
+      "city": "Jaipur",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0162",
+        "author": "@weather_clickbait_150",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": true,
+        "anomalyType": "CYCLONE_IN_LANDLOCKED_STATE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Flash flood situation in low-lying localities of Cuttack. River/nallah overflowing near Choudwar. NDRF boats deployed. #CuttackRains",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/chennai_coastal_gale_wind_06.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:45:50Z",
+      "lat": 20.4441,
+      "lon": 85.8753,
+      "city": "Cuttack",
+      "state": "Odisha",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0037",
+        "author": "@cuttack_user301",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Ganga river at Varanasi ghats has completely frozen over into a skating rink! -18C temp! #VaranasiIce",
+      "mediaUrls": [
+        "https://fake-weather-images.test/cyclone_bhopal_cgi_render.png"
+      ],
+      "reportedAt": "2026-09-27T08:01:50Z",
+      "lat": 25.3247,
+      "lon": 82.9653,
+      "city": "Varanasi",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0195",
+        "author": "@weather_clickbait_183",
+        "simulatedEventClass": "UNKNOWN",
+        "isAnomaly": true,
+        "anomalyType": "FREEZING_IN_EQUATORIAL_COAST"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden thunderstorm accompanied by hail reported in parts of Patna. Sky turned dark at 3 PM! #PatnaWeatherAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T04:49:50Z",
+      "lat": 25.5961,
+      "lon": 85.1515,
+      "city": "Patna",
+      "state": "Bihar",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0018",
+        "author": "@patna_user623",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Coral reef tsunami hitting Sukhna Lake in Chandigarh! Tropical saltwater sharks seen in Sector 17! #ChandigarhHoax",
+      "mediaUrls": [
+        "https://fake-weather-images.test/delhi_tsunami_deepfake.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:14:50Z",
+      "lat": 30.7362,
+      "lon": 76.7669,
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0189",
+        "author": "@weather_clickbait_254",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": true,
+        "anomalyType": "TSUNAMI_IN_LANDLOCKED_STATE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Insane snowfall at Marine Drive Mumbai! Queen's Necklace covered in 10 inches of white snow and icicles hanging from Sea Link! #MumbaiSnow",
+      "mediaUrls": [
+        "https://fake-weather-images.test/cyclone_bhopal_cgi_render.png"
+      ],
+      "reportedAt": "2026-09-27T08:07:50Z",
+      "lat": 19.0681,
+      "lon": 72.8661,
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0167",
+        "author": "@weather_clickbait_396",
+        "simulatedEventClass": "UNKNOWN",
+        "isAnomaly": true,
+        "anomalyType": "SNOW_IN_TROPICAL_COAST"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Scorching heatwave grips Gaya. Mercury touches 44.5C today. Severe loo winds blowing near Falgu. Stay hydrated! #HeatwaveAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+      ],
+      "reportedAt": "2026-09-27T07:43:50Z",
+      "lat": 24.7942,
+      "lon": 85.001,
+      "city": "Gaya",
+      "state": "Bihar",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0084",
+        "author": "@gaya_user510",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Loud thunderclaps shaking the building in Kolkata. Rain is pelting hard. Electricity is out in our area. #KolkataRains",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:47:50Z",
+      "lat": 22.5947,
+      "lon": 88.3628,
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0092",
+        "author": "@kolkata_user85",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Howling winds whistling through high-rise balconies in Kochi. Several electric poles tilted near Cochin. #WindWarning",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:02:50Z",
+      "lat": 9.944,
+      "lon": 76.2854,
+      "city": "Kochi",
+      "state": "Kerala",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0013",
+        "author": "@kochi_user821",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Massive old banyan tree uprooted due to cyclonic wind gusts near Calcutta in Kolkata. Road blocked. #KolkataStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/chennai_coastal_gale_wind_06.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:59:50Z",
+      "lat": 22.5522,
+      "lon": 88.3601,
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0041",
+        "author": "@kolkata_user799",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden squall with blinding sand and dust sweeping across Kota. Hoardings swinging dangerously near Chambal. #DustStormAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/delhi_fog_igi_runway_03.jpg"
+      ],
+      "reportedAt": "2026-09-27T03:25:50Z",
+      "lat": 25.2192,
+      "lon": 75.8727,
+      "city": "Kota",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0158",
+        "author": "@kota_user289",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Thick layer of smog and radiation fog engulfs Ludhiana. Sun completely invisible till 10:30 AM near Civil Lines Ludhiana. #AirQuality #Ludhiana",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kolkata_lightning_howrah_05.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:45:50Z",
+      "lat": 30.9196,
+      "lon": 75.8341,
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0120",
+        "author": "@ludhiana_user242",
+        "simulatedEventClass": "FOG",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Intense thunderstorm rolling over Lucknow! Massive lightning strikes heard near Gomti Nagar. Power tripping across several sectors. #LucknowStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kolkata_lightning_howrah_05.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:51:50Z",
+      "lat": 26.8541,
+      "lon": 80.9289,
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0110",
+        "author": "@lucknow_user435",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Flash flood situation in low-lying localities of Delhi. River/nallah overflowing near Dwarka. NDRF boats deployed. #DelhiRains",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kolkata_lightning_howrah_05.jpg"
+      ],
+      "reportedAt": "2026-09-27T03:51:50Z",
+      "lat": 28.6897,
+      "lon": 77.1025,
+      "city": "Delhi",
+      "state": "Delhi",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0011",
+        "author": "@delhi_user152",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Flash flood situation in low-lying localities of Kochi. River/nallah overflowing near Kakkanad. NDRF boats deployed. #KochiRains",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/bengaluru_outer_ring_road_rain_02.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:28:50Z",
+      "lat": 9.9506,
+      "lon": 76.263,
+      "city": "Kochi",
+      "state": "Kerala",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0152",
+        "author": "@kochi_user330",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden squall with blinding sand and dust sweeping across Kota. Hoardings swinging dangerously near Talwandi. #DustStormAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/patna_ganga_water_rise_09.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:51:50Z",
+      "lat": 25.1965,
+      "lon": 75.8546,
+      "city": "Kota",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0031",
+        "author": "@kota_user72",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Gale force winds pounding coastal areas of Mumbai. Roof tin sheets blown off near Kalyan. Wind speeds gusting over 75 km/h! #Mumbai",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:44:50Z",
+      "lat": 19.0918,
+      "lon": 72.8757,
+      "city": "Mumbai",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0048",
+        "author": "@mumbai_user902",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Massive 200mm flash flood submerged Connaught Place under 10 feet of raging river water right now! (Official IMD: Clear Sky, 0mm rain) #DelhiFloodHoax",
+      "mediaUrls": [
+        "https://fake-weather-images.test/delhi_tsunami_deepfake.jpg"
+      ],
+      "reportedAt": "2026-09-27T07:49:50Z",
+      "lat": 28.6882,
+      "lon": 77.0927,
+      "city": "Delhi",
+      "state": "Delhi",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0180",
+        "author": "@weather_clickbait_256",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": true,
+        "anomalyType": "CONTRADICTS_OFFICIAL_STATION"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Water entered ground floor houses near Khanapara in Guwahati. Power supply disconnected as precaution. Urgent help needed! #Guwahati",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/chennai_coastal_gale_wind_06.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:25:50Z",
+      "lat": 26.1676,
+      "lon": 91.7245,
+      "city": "Guwahati",
+      "state": "Assam",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0051",
+        "author": "@guwahati_user756",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Unbearable heat in Ahmedabad. Thermometer showing 46C at Bopal. Streets deserted in the afternoon. #ExtremeHeat #Ahmedabad",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:58:50Z",
+      "lat": 23.0091,
+      "lon": 72.5515,
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0007",
+        "author": "@ahmedabad_user864",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Record breaking heat recorded across Jodhpur. Night temperature also staying above 32C. ACs struggling to cool. #JodhpurWeather",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:42:50Z",
+      "lat": 26.2499,
+      "lon": 73.0143,
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0054",
+        "author": "@jodhpur_user344",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden squall with blinding sand and dust sweeping across Hisar. Hoardings swinging dangerously near Hissar. #DustStormAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:28:50Z",
+      "lat": 29.132,
+      "lon": 75.7446,
+      "city": "Hisar",
+      "state": "Haryana",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0004",
+        "author": "@hisar_user109",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Entire highway stretch near Bezawada in Vijayawada is inundated. Traffic halted for over 3 hours. #FloodAlert #Vijayawada",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:52:50Z",
+      "lat": 16.4989,
+      "lon": 80.651,
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0045",
+        "author": "@vijayawada_user777",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "BREAKING: Category 5 Super Cyclone with 250 kmph winds hitting Upper Lake in Bhopal! 20-foot storm surge witnessed on VIP Road! #BhopalCyclone",
+      "mediaUrls": [
+        "https://fake-weather-images.test/delhi_tsunami_deepfake.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:31:50Z",
+      "lat": 23.2462,
+      "lon": 77.4051,
+      "city": "Bhopal",
+      "state": "Madhya Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0161",
+        "author": "@weather_clickbait_710",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": true,
+        "anomalyType": "CYCLONE_IN_LANDLOCKED_STATE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe typhoon destroying Hazratganj with 180 km/h ocean winds! Gomti river has 15-foot high marine breakers! #LucknowTyphoon",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T04:58:50Z",
+      "lat": 26.8613,
+      "lon": 80.9604,
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0187",
+        "author": "@weather_clickbait_493",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": true,
+        "anomalyType": "CYCLONE_IN_LANDLOCKED_STATE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Fierce dust storm (Andhi) hits Agra! Sky turned amber-yellow near Fatehpur Sikri. Strong dusty gales reducing visibility to zero. #AgraDustStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/bengaluru_outer_ring_road_rain_02.jpg"
+      ],
+      "reportedAt": "2026-09-27T04:39:50Z",
+      "lat": 27.1848,
+      "lon": 78.0031,
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0105",
+        "author": "@agra_user332",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Heavy downpour lashing Dehradun right now! Visibility reduced significantly near Doon. Drive safe everyone. #DehradunRains",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kochi_heavy_downpour_08.jpg"
+      ],
+      "reportedAt": "2026-09-27T07:19:50Z",
+      "lat": 30.3399,
+      "lon": 78.0535,
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0029",
+        "author": "@dehradun_user502",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden thunderstorm accompanied by hail reported in parts of Lucknow. Sky turned dark at 3 PM! #LucknowWeatherAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:31:50Z",
+      "lat": 26.828,
+      "lon": 80.9695,
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0117",
+        "author": "@lucknow_user905",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Naval tsunami alert issued for Gwalior city center! Gigantic 30-meter ocean waves crashing into Gwalior Fort! #GwaliorTsunami",
+      "mediaUrls": [
+        "https://fake-weather-images.test/delhi_tsunami_deepfake.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:08:50Z",
+      "lat": 26.2155,
+      "lon": 78.1741,
+      "city": "Gwalior",
+      "state": "Madhya Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0165",
+        "author": "@weather_clickbait_783",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": true,
+        "anomalyType": "TSUNAMI_IN_LANDLOCKED_STATE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Loud thunderclaps shaking the building in Raipur. Rain is pelting hard. Electricity is out in our area. #RaipurRains",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:45:50Z",
+      "lat": 21.2467,
+      "lon": 81.6463,
+      "city": "Raipur",
+      "state": "Chhattisgarh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0056",
+        "author": "@raipur_user814",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Blinding dust storm in Amritsar suburbs. Traffic crawling on bypass road near Golden Temple. Windows covered in sand. #DustStorm",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:05:50Z",
+      "lat": 31.6184,
+      "lon": 74.8654,
+      "city": "Amritsar",
+      "state": "Punjab",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0107",
+        "author": "@amritsar_user788",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Record breaking heat recorded across Patna. Night temperature also staying above 32C. ACs struggling to cool. #PatnaWeather",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:43:50Z",
+      "lat": 25.5747,
+      "lon": 85.1307,
+      "city": "Patna",
+      "state": "Bihar",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0019",
+        "author": "@patna_user256",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Scorching heatwave grips Gwalior. Mercury touches 44.5C today. Severe loo winds blowing near Morar. Stay hydrated! #HeatwaveAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:03:50Z",
+      "lat": 26.238,
+      "lon": 78.1618,
+      "city": "Gwalior",
+      "state": "Madhya Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0066",
+        "author": "@gwalior_user720",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Non-stop rains in Shillong since early morning. Scotland of East is witnessing slow traffic. Keep umbrellas handy! #ShillongRains",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:54:50Z",
+      "lat": 25.5993,
+      "lon": 91.9056,
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0128",
+        "author": "@shillong_user245",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Record breaking heat recorded across Kota. Night temperature also staying above 32C. ACs struggling to cool. #KotaWeather",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:03:50Z",
+      "lat": 25.2241,
+      "lon": 75.8804,
+      "city": "Kota",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0116",
+        "author": "@kota_user821",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Basements completely submerged in North Bengal area of Siliguri. Local civic helpline is busy. Please send rescue teams! #SiliguriHelp",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:01:50Z",
+      "lat": 26.7157,
+      "lon": 88.3946,
+      "city": "Siliguri",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0070",
+        "author": "@siliguri_user751",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Blinding dust storm in Bikaner suburbs. Traffic crawling on bypass road near Deshnoke. Windows covered in sand. #DustStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/chennai_coastal_gale_wind_06.jpg"
+      ],
+      "reportedAt": "2026-09-27T09:10:50Z",
+      "lat": 28.03,
+      "lon": 73.3168,
+      "city": "Bikaner",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0142",
+        "author": "@bikaner_user259",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe waterlogging and knee-deep flood water on roads near Karveer, Kolhapur. Vehicles stranded, please avoid this stretch! #KolhapurFlood",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/patna_ganga_water_rise_09.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:09:50Z",
+      "lat": 16.6999,
+      "lon": 74.2519,
+      "city": "Kolhapur",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0022",
+        "author": "@kolhapur_user472",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden thunderstorm accompanied by hail reported in parts of Ranchi. Sky turned dark at 3 PM! #RanchiWeatherAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T04:40:50Z",
+      "lat": 23.3329,
+      "lon": 85.3163,
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0150",
+        "author": "@ranchi_user400",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Record breaking heat recorded across Nagpur. Night temperature also staying above 32C. ACs struggling to cool. #NagpurWeather",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T04:49:50Z",
+      "lat": 21.15,
+      "lon": 79.0883,
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0032",
+        "author": "@nagpur_user993",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Gale force winds pounding coastal areas of Kolkata. Roof tin sheets blown off near Dum Dum. Wind speeds gusting over 75 km/h! #Kolkata",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:42:50Z",
+      "lat": 22.5878,
+      "lon": 88.3623,
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0133",
+        "author": "@kolkata_user890",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Heavy downpour lashing Dehradun right now! Visibility reduced significantly near Doon. Drive safe everyone. #DehradunRains",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:25:50Z",
+      "lat": 30.2945,
+      "lon": 78.0436,
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0027",
+        "author": "@dehradun_user559",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Monsoon fury in Kolkata. Rainfall recorded over 45mm in last 2 hours. Roads turning into streams near New Town. #MonsoonUpdate",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/hyderabad_hitech_city_cloudburst_10.jpg"
+      ],
+      "reportedAt": "2026-09-27T09:19:50Z",
+      "lat": 22.5563,
+      "lon": 88.3427,
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0096",
+        "author": "@kolkata_user491",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden thunderstorm accompanied by hail reported in parts of Hyderabad. Sky turned dark at 3 PM! #HyderabadWeatherAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kochi_heavy_downpour_08.jpg"
+      ],
+      "reportedAt": "2026-09-27T03:39:50Z",
+      "lat": 17.3919,
+      "lon": 78.4847,
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0124",
+        "author": "@hyderabad_user932",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden squall with blinding sand and dust sweeping across Jaisalmer. Hoardings swinging dangerously near Thar Desert. #DustStormAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/patna_ganga_water_rise_09.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:21:50Z",
+      "lat": 26.9099,
+      "lon": 70.9131,
+      "city": "Jaisalmer",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0014",
+        "author": "@jaisalmer_user891",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Scorching heatwave grips Hyderabad. Mercury touches 44.5C today. Severe loo winds blowing near Kukatpally. Stay hydrated! #HeatwaveAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kolkata_lightning_howrah_05.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:35:50Z",
+      "lat": 17.3842,
+      "lon": 78.4737,
+      "city": "Hyderabad",
+      "state": "Telangana",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0065",
+        "author": "@hyderabad_user250",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sabarmati river turned into solid glacier ice! People ice skating in middle of 44 degree summer! #AhmedabadGlacier",
+      "mediaUrls": [
+        "https://fake-weather-images.test/manipulated_icebergs_in_desert_99.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:51:50Z",
+      "lat": 23.004,
+      "lon": 72.5661,
+      "city": "Ahmedabad",
+      "state": "Gujarat",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0186",
+        "author": "@weather_clickbait_760",
+        "simulatedEventClass": "UNKNOWN",
+        "isAnomaly": true,
+        "anomalyType": "CONTRADICTS_OFFICIAL_STATION"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Record breaking heat recorded across Prayagraj. Night temperature also staying above 32C. ACs struggling to cool. #PrayagrajWeather",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+      ],
+      "reportedAt": "2026-09-27T07:10:50Z",
+      "lat": 25.4301,
+      "lon": 81.8501,
+      "city": "Prayagraj",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0052",
+        "author": "@prayagraj_user11",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe loo windstorm in Gulmarg ski resort! Temperature hits 48C causing palm trees to grow in snow slopes! #GulmargHeat",
+      "mediaUrls": [
+        "https://fake-weather-images.test/manipulated_icebergs_in_desert_99.jpg"
+      ],
+      "reportedAt": "2026-09-27T07:51:50Z",
+      "lat": 19.9936,
+      "lon": 76.9933,
+      "city": "Gulmarg",
+      "state": "Jammu and Kashmir",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0177",
+        "author": "@weather_clickbait_622",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": true,
+        "anomalyType": "EXTREME_HEAT_IN_ALPINE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Heavy downpour lashing Chennai right now! Visibility reduced significantly near Adyar. Drive safe everyone. #ChennaiRains",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:36:50Z",
+      "lat": 13.0852,
+      "lon": 80.2921,
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0108",
+        "author": "@chennai_user506",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Heavy cloudburst kind of downpour near Umiam in Shillong. Street drains overflowing rapidly. #ShillongWeather #Monsoon",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kochi_heavy_downpour_08.jpg"
+      ],
+      "reportedAt": "2026-09-27T03:49:50Z",
+      "lat": 25.5702,
+      "lon": 91.8988,
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0136",
+        "author": "@shillong_user941",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Dense fog blankets Kanpur this morning. Zero visibility recorded near Ganga Barrage. Flight operations and trains delayed. #KanpurFog",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T03:43:50Z",
+      "lat": 26.4559,
+      "lon": 80.3408,
+      "city": "Kanpur",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0129",
+        "author": "@kanpur_user150",
+        "simulatedEventClass": "FOG",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Water entered ground floor houses near Kanaka Durga in Vijayawada. Power supply disconnected as precaution. Urgent help needed! #Vijayawada",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:43:50Z",
+      "lat": 16.5143,
+      "lon": 80.6697,
+      "city": "Vijayawada",
+      "state": "Andhra Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0098",
+        "author": "@vijayawada_user673",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Record 51C heatwave in Leh Ladakh! Tropical humidity causing heat stroke among locals at 11,000 ft altitude! #LehHeatwave",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:34:50Z",
+      "lat": 34.1501,
+      "lon": 77.5613,
+      "city": "Leh",
+      "state": "Ladakh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0175",
+        "author": "@weather_clickbait_703",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": true,
+        "anomalyType": "EXTREME_HEAT_IN_ALPINE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Gale force winds pounding coastal areas of Kolkata. Roof tin sheets blown off near Dum Dum. Wind speeds gusting over 75 km/h! #Kolkata",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:39:50Z",
+      "lat": 22.5788,
+      "lon": 88.3588,
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0119",
+        "author": "@kolkata_user882",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Unbelievable! 4 feet of heavy snow accumulated on Marina Beach Chennai today! Snow plows clearing ice near Napier Bridge! #ChennaiSnow",
+      "mediaUrls": [
+        "https://fake-weather-images.test/manipulated_icebergs_in_desert_99.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:49:50Z",
+      "lat": 13.075,
+      "lon": 80.2595,
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0166",
+        "author": "@weather_clickbait_309",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": true,
+        "anomalyType": "SNOW_IN_TROPICAL_COAST"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Continuous showers reported across South Thiruvananthapuram. Underpass near Varkala barricaded due to water accumulation. #ThiruvananthapuramTraffic",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:25:50Z",
+      "lat": 8.538,
+      "lon": 76.9373,
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0147",
+        "author": "@thiruvananthapuram_user236",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Red alert for heatwave in Bikaner today. Blistering sun and hot winds making it impossible to step outside. #HeatWave #Bikaner",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T07:34:50Z",
+      "lat": 28.0284,
+      "lon": 73.3239,
+      "city": "Bikaner",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0095",
+        "author": "@bikaner_user280",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Glacier chunk collided with Gandhi Setu bridge in Patna! Massive ice blocks floating down Ganga! #PatnaGlacier",
+      "mediaUrls": [
+        "https://fake-weather-images.test/volcano_howrah_ai_generated.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:56:50Z",
+      "lat": 25.5926,
+      "lon": 85.1398,
+      "city": "Patna",
+      "state": "Bihar",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0188",
+        "author": "@weather_clickbait_929",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": true,
+        "anomalyType": "GLACIER_IN_DESERT"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Monsoon fury in Pune. Rainfall recorded over 45mm in last 2 hours. Roads turning into streams near Pimpri. #MonsoonUpdate",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kolkata_lightning_howrah_05.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:29:50Z",
+      "lat": 18.5334,
+      "lon": 73.8669,
+      "city": "Pune",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0121",
+        "author": "@pune_user935",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe dust storm blowing Saharan red sand in Rajpur Road at 52 degrees Celsius! #DehradunFake",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:51:50Z",
+      "lat": 30.3129,
+      "lon": 78.0257,
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0193",
+        "author": "@weather_clickbait_908",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": true,
+        "anomalyType": "EXTREME_HEAT_IN_ALPINE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Loud thunderclaps shaking the building in Visakhapatnam. Rain is pelting hard. Electricity is out in our area. #VisakhapatnamRains",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:18:50Z",
+      "lat": 17.6643,
+      "lon": 83.206,
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0062",
+        "author": "@visakhapatnam_user830",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Red alert for heatwave in Jodhpur today. Blistering sun and hot winds making it impossible to step outside. #HeatWave #Jodhpur",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T09:01:50Z",
+      "lat": 26.2197,
+      "lon": 73.0016,
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0137",
+        "author": "@jodhpur_user514",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Continuous showers reported across South Thiruvananthapuram. Underpass near Varkala barricaded due to water accumulation. #ThiruvananthapuramTraffic",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+      ],
+      "reportedAt": "2026-09-27T03:24:50Z",
+      "lat": 8.5434,
+      "lon": 76.9404,
+      "city": "Thiruvananthapuram",
+      "state": "Kerala",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0060",
+        "author": "@thiruvananthapuram_user259",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Blinding dust storm in Hisar suburbs. Traffic crawling on bypass road near Hissar. Windows covered in sand. #DustStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:04:50Z",
+      "lat": 29.1732,
+      "lon": 75.7086,
+      "city": "Hisar",
+      "state": "Haryana",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0115",
+        "author": "@hisar_user54",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Flash flood situation in low-lying localities of Siliguri. River/nallah overflowing near Bagdogra. NDRF boats deployed. #SiliguriRains",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:58:50Z",
+      "lat": 26.719,
+      "lon": 88.4143,
+      "city": "Siliguri",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0073",
+        "author": "@siliguri_user268",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Light to moderate showers in Guwahati this afternoon. Cool breeze blowing. Love this weather! #GuwahatiRain",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:58:50Z",
+      "lat": 26.1473,
+      "lon": 91.7169,
+      "city": "Guwahati",
+      "state": "Assam",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0157",
+        "author": "@guwahati_user836",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Massive old banyan tree uprooted due to cyclonic wind gusts near Guindy in Chennai. Road blocked. #ChennaiStorm",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T04:38:50Z",
+      "lat": 13.0846,
+      "lon": 80.263,
+      "city": "Chennai",
+      "state": "Tamil Nadu",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0114",
+        "author": "@chennai_user396",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden thunderstorm accompanied by hail reported in parts of Chandigarh. Sky turned dark at 3 PM! #ChandigarhWeatherAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:26:50Z",
+      "lat": 30.7086,
+      "lon": 76.7919,
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0061",
+        "author": "@chandigarh_user234",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Fierce dust storm (Andhi) hits Jaisalmer! Sky turned amber-yellow near Golden City. Strong dusty gales reducing visibility to zero. #JaisalmerDustStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/hyderabad_hitech_city_cloudburst_10.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:34:50Z",
+      "lat": 26.9295,
+      "lon": 70.9023,
+      "city": "Jaisalmer",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0094",
+        "author": "@jaisalmer_user449",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Water entered ground floor houses near Baroda in Vadodara. Power supply disconnected as precaution. Urgent help needed! #Vadodara",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T04:57:50Z",
+      "lat": 22.3307,
+      "lon": 73.1764,
+      "city": "Vadodara",
+      "state": "Gujarat",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0106",
+        "author": "@vadodara_user11",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Entire highway stretch near Karveer in Kolhapur is inundated. Traffic halted for over 3 hours. #FloodAlert #Kolhapur",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T04:22:50Z",
+      "lat": 16.7174,
+      "lon": 74.2397,
+      "city": "Kolhapur",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0012",
+        "author": "@kolhapur_user151",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Scorching heatwave grips Jhansi. Mercury touches 44.5C today. Severe loo winds blowing near Bundelkhand. Stay hydrated! #HeatwaveAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T04:20:50Z",
+      "lat": 25.4375,
+      "lon": 78.5584,
+      "city": "Jhansi",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0113",
+        "author": "@jhansi_user685",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Continuous showers reported across South Ratnagiri. Underpass near Ganpatipule barricaded due to water accumulation. #RatnagiriTraffic",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:11:50Z",
+      "lat": 17.0104,
+      "lon": 73.3143,
+      "city": "Ratnagiri",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0043",
+        "author": "@ratnagiri_user161",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Continuous showers reported across South Kolkata. Underpass near Calcutta barricaded due to water accumulation. #KolkataTraffic",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:08:50Z",
+      "lat": 22.5522,
+      "lon": 88.3654,
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0160",
+        "author": "@kolkata_user359",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Massive ocean tsunami flooding Golden Temple complex! 25 foot high seawater storm surge! #AmritsarHoax",
+      "mediaUrls": [
+        "https://fake-weather-images.test/cyclone_bhopal_cgi_render.png"
+      ],
+      "reportedAt": "2026-09-27T06:07:50Z",
+      "lat": 31.6349,
+      "lon": 74.8586,
+      "city": "Amritsar",
+      "state": "Punjab",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0192",
+        "author": "@weather_clickbait_496",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": true,
+        "anomalyType": "TSUNAMI_IN_LANDLOCKED_STATE"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Scary lightning and roaring thunder in Chandigarh right now. Tree branches fallen near Sector 17 Chandigarh. Stay indoors! #ChandigarhThunder",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:42:50Z",
+      "lat": 30.7164,
+      "lon": 76.7765,
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0042",
+        "author": "@chandigarh_user124",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Knee deep flash flood in Hinjawadi IT park while sun is shining brightly at 38C! IT employees swimming to work! #PuneFake",
+      "mediaUrls": [
+        "https://fake-weather-images.test/volcano_howrah_ai_generated.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:39:50Z",
+      "lat": 18.5026,
+      "lon": 73.857,
+      "city": "Pune",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0185",
+        "author": "@weather_clickbait_562",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": true,
+        "anomalyType": "CONTRADICTS_OFFICIAL_STATION"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Unbearable heat in Nagpur. Thermometer showing 46C at Orange City. Streets deserted in the afternoon. #ExtremeHeat #Nagpur",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:28:50Z",
+      "lat": 21.1352,
+      "lon": 79.0773,
+      "city": "Nagpur",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0097",
+        "author": "@nagpur_user956",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden squall with blinding sand and dust sweeping across Hisar. Hoardings swinging dangerously near Hissar. #DustStormAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/bengaluru_outer_ring_road_rain_02.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:18:50Z",
+      "lat": 29.1429,
+      "lon": 75.7043,
+      "city": "Hisar",
+      "state": "Haryana",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0153",
+        "author": "@hisar_user105",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Moderate drizzle across Shillong giving much needed relief from the sultry humidity. Temperature dropped to 26C. #Shillong",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T04:53:50Z",
+      "lat": 25.5748,
+      "lon": 91.8975,
+      "city": "Shillong",
+      "state": "Meghalaya",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0034",
+        "author": "@shillong_user277",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Red alert for heatwave in Gaya today. Blistering sun and hot winds making it impossible to step outside. #HeatWave #Gaya",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:07:50Z",
+      "lat": 24.784,
+      "lon": 84.9843,
+      "city": "Gaya",
+      "state": "Bihar",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0159",
+        "author": "@gaya_user420",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Dense fog blankets Srinagar this morning. Zero visibility recorded near Boulevard. Flight operations and trains delayed. #SrinagarFog",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:19:50Z",
+      "lat": 34.0722,
+      "lon": 74.7849,
+      "city": "Srinagar",
+      "state": "Jammu and Kashmir",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0087",
+        "author": "@srinagar_user333",
+        "simulatedEventClass": "FOG",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Calangute and Baga beaches in Goa completely covered in snowdrifts! Tourists making snowmen in 40-degree latitude! #GoaSnow",
+      "mediaUrls": [
+        "https://fake-weather-images.test/manipulated_icebergs_in_desert_99.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:54:50Z",
+      "lat": 15.4976,
+      "lon": 73.822,
+      "city": "Panaji",
+      "state": "Goa",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0170",
+        "author": "@weather_clickbait_546",
+        "simulatedEventClass": "UNKNOWN",
+        "isAnomaly": true,
+        "anomalyType": "SNOW_IN_TROPICAL_COAST"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Record breaking heat recorded across Jhansi. Night temperature also staying above 32C. ACs struggling to cool. #JhansiWeather",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:39:50Z",
+      "lat": 25.4349,
+      "lon": 78.5451,
+      "city": "Jhansi",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0010",
+        "author": "@jhansi_user77",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Blinding fog across highway stretches near Dehradun. Visibility under 20 meters. Commuters using hazard lights. #DehradunWinter #FogAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:10:50Z",
+      "lat": 30.3207,
+      "lon": 78.0483,
+      "city": "Dehradun",
+      "state": "Uttarakhand",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0135",
+        "author": "@dehradun_user492",
+        "simulatedEventClass": "FOG",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden thunderstorm accompanied by hail reported in parts of Guwahati. Sky turned dark at 3 PM! #GuwahatiWeatherAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:52:50Z",
+      "lat": 26.1245,
+      "lon": 91.7357,
+      "city": "Guwahati",
+      "state": "Assam",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0139",
+        "author": "@guwahati_user296",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Light to moderate showers in Ratnagiri this afternoon. Cool breeze blowing. Love this weather! #RatnagiriRain",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/chennai_coastal_gale_wind_06.jpg"
+      ],
+      "reportedAt": "2026-09-27T05:35:50Z",
+      "lat": 16.9975,
+      "lon": 73.3024,
+      "city": "Ratnagiri",
+      "state": "Maharashtra",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0130",
+        "author": "@ratnagiri_user759",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Gale force winds pounding coastal areas of Thoothukudi. Roof tin sheets blown off near Tuticorin. Wind speeds gusting over 75 km/h! #Thoothukudi",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kochi_heavy_downpour_08.jpg"
+      ],
+      "reportedAt": "2026-09-27T06:19:50Z",
+      "lat": 8.7439,
+      "lon": 78.1427,
+      "city": "Thoothukudi",
+      "state": "Tamil Nadu",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0026",
+        "author": "@thoothukudi_user894",
+        "simulatedEventClass": "STRONG_WIND",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Scary lightning and roaring thunder in Lucknow right now. Tree branches fallen near Gomti Nagar. Stay indoors! #LucknowThunder",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/chennai_coastal_gale_wind_06.jpg"
+      ],
+      "reportedAt": "2026-09-27T03:22:50Z",
+      "lat": 26.8499,
+      "lon": 80.9321,
+      "city": "Lucknow",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0076",
+        "author": "@lucknow_user181",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Monsoon fury in Bengaluru. Rainfall recorded over 45mm in last 2 hours. Roads turning into streams near Hebbal. #MonsoonUpdate",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/delhi_fog_igi_runway_03.jpg"
+      ],
+      "reportedAt": "2026-09-27T04:48:50Z",
+      "lat": 12.9874,
+      "lon": 77.6185,
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0020",
+        "author": "@bengaluru_user685",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Sudden thunderstorm accompanied by hail reported in parts of Bengaluru. Sky turned dark at 3 PM! #BengaluruWeatherAlert",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/kolkata_lightning_howrah_05.jpg"
+      ],
+      "reportedAt": "2026-09-27T07:36:50Z",
+      "lat": 12.9768,
+      "lon": 77.6055,
+      "city": "Bengaluru",
+      "state": "Karnataka",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0040",
+        "author": "@bengaluru_user527",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Record breaking heat recorded across Gaya. Night temperature also staying above 32C. ACs struggling to cool. #GayaWeather",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T04:32:50Z",
+      "lat": 24.7669,
+      "lon": 85.0063,
+      "city": "Gaya",
+      "state": "Bihar",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0036",
+        "author": "@gaya_user85",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe squall and lightning over Chandigarh. Gusty winds rattling windows near Sukhna Lake. Stay safe everyone! #Thunderstorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/rajasthan_dust_storm_highway_04.jpg"
+      ],
+      "reportedAt": "2026-09-27T04:03:50Z",
+      "lat": 30.7225,
+      "lon": 76.7876,
+      "city": "Chandigarh",
+      "state": "Chandigarh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0058",
+        "author": "@chandigarh_user698",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Scorching heatwave grips Gwalior. Mercury touches 44.5C today. Severe loo winds blowing near Morar. Stay hydrated! #HeatwaveAlert",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:31:50Z",
+      "lat": 26.2273,
+      "lon": 78.2,
+      "city": "Gwalior",
+      "state": "Madhya Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0050",
+        "author": "@gwalior_user128",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Unbearable heat in Jodhpur. Thermometer showing 46C at Marwar. Streets deserted in the afternoon. #ExtremeHeat #Jodhpur",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:24:50Z",
+      "lat": 26.2218,
+      "lon": 73.0214,
+      "city": "Jodhpur",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0125",
+        "author": "@jodhpur_user316",
+        "simulatedEventClass": "HEATWAVE",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Intense thunderstorm rolling over Visakhapatnam! Massive lightning strikes heard near Waltair. Power tripping across several sectors. #VisakhapatnamStorm",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:59:50Z",
+      "lat": 17.6714,
+      "lon": 83.2304,
+      "city": "Visakhapatnam",
+      "state": "Andhra Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0088",
+        "author": "@visakhapatnam_user788",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Chilling morning with dense fog in Srinagar. Morning walkers bundled up in heavy woolens near Kashmir Valley. #SrinagarWinters",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T03:40:50Z",
+      "lat": 34.0864,
+      "lon": 74.7819,
+      "city": "Srinagar",
+      "state": "Jammu and Kashmir",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0055",
+        "author": "@srinagar_user703",
+        "simulatedEventClass": "FOG",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Fierce dust storm (Andhi) hits Bathinda! Sky turned amber-yellow near Bhatinda. Strong dusty gales reducing visibility to zero. #BathindaDustStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/mumbai_monsoon_waterlogging_01.jpg"
+      ],
+      "reportedAt": "2026-09-27T08:25:50Z",
+      "lat": 30.1993,
+      "lon": 74.9599,
+      "city": "Bathinda",
+      "state": "Punjab",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0047",
+        "author": "@bathinda_user889",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Fierce dust storm (Andhi) hits Agra! Sky turned amber-yellow near Taj Mahal. Strong dusty gales reducing visibility to zero. #AgraDustStorm",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T05:25:50Z",
+      "lat": 27.1734,
+      "lon": 78.0012,
+      "city": "Agra",
+      "state": "Uttar Pradesh",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0080",
+        "author": "@agra_user455",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Severe Sahara sand dune storm engulfing Brahmaputra river valley! Zero percent humidity and 49C heat! #GuwahatiHoax",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T06:18:50Z",
+      "lat": 26.1478,
+      "lon": 91.7219,
+      "city": "Guwahati",
+      "state": "Assam",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0196",
+        "author": "@weather_clickbait_417",
+        "simulatedEventClass": "DUST_STORM",
+        "isAnomaly": true,
+        "anomalyType": "DESERT_DUST_IN_RAINFOREST"
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Dense fog blankets Ludhiana this morning. Zero visibility recorded near Civil Lines Ludhiana. Flight operations and trains delayed. #LudhianaFog",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/nagpur_heatwave_thermometer_07.jpg"
+      ],
+      "reportedAt": "2026-09-27T04:46:50Z",
+      "lat": 30.9164,
+      "lon": 75.8688,
+      "city": "Ludhiana",
+      "state": "Punjab",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0005",
+        "author": "@ludhiana_user90",
+        "simulatedEventClass": "FOG",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Heavy downpour lashing Kolkata right now! Visibility reduced significantly near Salt Lake. Drive safe everyone. #KolkataRains",
+      "mediaUrls": [],
+      "reportedAt": "2026-09-27T08:37:50Z",
+      "lat": 22.5882,
+      "lon": 88.3864,
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0093",
+        "author": "@kolkata_user131",
+        "simulatedEventClass": "RAINFALL",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Scary lightning and roaring thunder in Ranchi right now. Tree branches fallen near Dhurwa. Stay indoors! #RanchiThunder",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/patna_ganga_water_rise_09.jpg"
+      ],
+      "reportedAt": "2026-09-27T07:38:50Z",
+      "lat": 23.3354,
+      "lon": 85.3054,
+      "city": "Ranchi",
+      "state": "Jharkhand",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0131",
+        "author": "@ranchi_user907",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Intense thunderstorm rolling over Kolkata! Massive lightning strikes heard near New Town. Power tripping across several sectors. #KolkataStorm",
+      "mediaUrls": [
+        "https://weather-media.internal.org/photos/bengaluru_outer_ring_road_rain_02.jpg"
+      ],
+      "reportedAt": "2026-09-27T09:13:50Z",
+      "lat": 22.5831,
+      "lon": 88.3544,
+      "city": "Kolkata",
+      "state": "West Bengal",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0109",
+        "author": "@kolkata_user240",
+        "simulatedEventClass": "THUNDERSTORM",
+        "isAnomaly": false,
+        "anomalyType": null
+      }
+    },
+    {
+      "source": "SOCIAL_SIMULATED",
+      "rawText": "Glacial lake burst flood raging through Bikaner city center! Icebergs floating down Junagarh fort streets! #BikanerGlacier",
+      "mediaUrls": [
+        "https://fake-weather-images.test/cyclone_bhopal_cgi_render.png"
+      ],
+      "reportedAt": "2026-09-27T05:44:50Z",
+      "lat": 28.0258,
+      "lon": 73.3203,
+      "city": "Bikaner",
+      "state": "Rajasthan",
+      "sourceMeta": {
+        "simulated": true,
+        "mockId": "SIM_SOC_0172",
+        "author": "@weather_clickbait_217",
+        "simulatedEventClass": "FLOODING",
+        "isAnomaly": true,
+        "anomalyType": "GLACIER_IN_DESERT"
+      }
+    }
+  ]
+}
