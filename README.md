@@ -60,10 +60,10 @@ The platform must:
 
 ## ✅ What's Implemented in This Prototype
 
-### Ingestion (all three sources built, tested, and confirmed live)
+### Ingestion (three live sources + one simulated source)
 - **Citizen Reports** — public submission form with GPS, photo/video upload, consent checkbox, rate-limited (10/IP/minute)
 - **News/RSS Scraper** — real, live scraping of Google News (India Weather search), The Hindu, and Indian Express feeds; resolves city/state locally via a 300-city lookup table (no paid geocoding)
-- **Official Ground-Truth Puller** — real, live data from the **Open-Meteo** free API (no key required), with OpenWeatherMap as an optional secondary provider; covers 32 major Indian cities on a polling cycle
+- **Weather Data Puller** — real, live near-real-time data from the **Open-Meteo** free API (no key required), with OpenWeatherMap as an optional secondary provider; covers 32 major Indian cities on a polling cycle. *Note: Open-Meteo is a model/reanalysis-based weather API, not an IMD-specific observation feed — it is used here as independent reference weather data, not as an official IMD ground-truth source.*
 - **Simulated Social Feed** — built on the **Mock-Mode Principle** (see below); a `SocialFeedClient` with a real, swappable interface, currently running on a curated 199-post labeled replay dataset (160 realistic + 39 deliberately implausible/anomalous, for verification testing)
 
 ### Processing & Intelligence
@@ -93,14 +93,14 @@ The platform must:
 | # | Module | Status | Notes |
 |---|---|---|---|
 | 1 | Data Source Management | ✅ Implemented | 4 parallel ingestion sources |
-| 2 | IMD/API Integration | ✅ Implemented | Open-Meteo (live) + optional OpenWeatherMap |
+| 2 | Weather API Integration | ✅ Implemented | Open-Meteo (live, model/reanalysis-based) + optional OpenWeatherMap — *not a direct IMD observation feed; used as independent reference data* |
 | 3 | Historical Dataset Processing | 🟡 Partial | Seed data used; formal historical dataset ingestion planned for final project |
 | 4 | Data Cleaning & Normalization | ✅ Implemented | Local city/state lookup + schema validation on ingest |
 | 5 | Big Data / Streaming | 🟡 By design | Monolith architecture, deliberately not Kafka/streaming for hackathon reliability — architected to be streaming-ready |
 | 6 | Weather Event Classification | ✅ Implemented | Hybrid keyword + ML (TF-IDF + Logistic Regression) |
 | 7 | AI Verification | ✅ Implemented | Explainable multi-factor trust scoring engine |
 | 8 | Duplicate Detection | ✅ Implemented | Sentence-embedding similarity |
-| 9 | Anomaly Detection | ✅ Implemented | Rolling spike detection per city/event-type/hour |
+| 9 | Anomaly Detection | ✅ Implemented | Threshold-based rolling spike detection per city/event-type/hour (fixed thresholds; not a statistical/baseline model) |
 | 10 | Backend & Database | ✅ Implemented | FastAPI + SQLAlchemy + SQLite |
 | 11 | Authentication & RBAC | 🟡 Partial (token-based admin gate) | Full per-user RBAC planned for final project |
 | 12 | National Dashboard | ✅ Implemented | Live map, filters, charts, search |
@@ -144,10 +144,9 @@ X/Twitter's API now costs **$200–$5,000/month** with no viable free tier for m
 Every report receives a fully explainable score — never a single opaque number:
 
 ```
-sourceTrust:        Official Station = 100 | News/RSS = 75 | Citizen = 50 | Social (simulated) = 40
-corroborationBoost:  +5 per independent matching report in same city within 3h, capped at +30
-crossMatchOfficial:  matches real official reading → +15 | contradicts it → −40 | no data → 0
-imageCheck:          plausible EXIF/timestamp on media → +10 | implausible → −10 | none → 0
+sourceTrust:          Weather Data Puller = 100 | News/RSS = 75 | Citizen = 50 | Social (simulated) = 40
+crossMatchWeatherData: matches reference weather data → +15 | contradicts it → −40 | no data available → 0
+mediaMetadataCheck:    plausible EXIF/timestamp on media → +10 | implausible → −10 | none → 0
 
 Final Trust Score = sum, clamped 0–100
   ≥ 70  → VERIFIED
@@ -159,12 +158,13 @@ The full factor breakdown is visible to admins reviewing any event — this is a
 
 ---
 
-## 🔺 Anomaly Detection
+## 🔺 Anomaly Detection (Threshold-Based Spike Detection)
 
-Distinct from per-report verification: even if individual reports are only PENDING, a **sudden cluster** of same-type reports in one place is itself a signal worth surfacing immediately.
+Distinct from per-report verification: even if individual reports are only PENDING, a **sudden cluster** of same-type reports in one place is itself a signal worth surfacing immediately. This is implemented as **fixed-threshold rolling spike detection**, not a statistical/baseline anomaly model — a deliberate, simple, explainable choice for the prototype stage.
 
 - Rolling count of reports per **(city, event type)** within a configurable window (default 3 hours)
 - **5+ reports** → WATCH signal | **10+ reports** → ALERT signal
+- *Known limitation:* thresholds are currently fixed, not adjusted per city size — a future version could use historical baselines, z-scores, or city-specific thresholds instead of flat counts (see Final Project roadmap)
 - Only counts VERIFIED/PENDING reports (excludes SUSPICIOUS/REJECTED/DUPLICATE, since those shouldn't drive a real-world alert)
 - Broadcast live over the existing WebSocket connection and shown as a dashboard badge/toast
 
@@ -174,12 +174,12 @@ This directly serves the PS's "real-time visualization and analytics" requiremen
 
 ## 📜 CAP v1.2 Alert Generation
 
-From any **VERIFIED** event, an admin can generate a standards-compliant **OASIS Common Alerting Protocol v1.2** XML document — the same format real emergency-alert systems (like those used by NDMA) consume.
+From any **VERIFIED** event, an admin can generate an **OASIS Common Alerting Protocol (CAP) v1.2** XML document, demonstrating compatibility with the standardized emergency-alert format used by systems like NDMA's SACHET portal.
 
 - Maps event data to CAP fields: `urgency`, `severity`, `certainty`, `headline`, `description`, `instruction`, `areaDesc`, geographic circle
 - Severity/urgency/certainty derived from trust score, source type, and corroboration count
 - Displayed and downloadable in the Admin Panel, with a full alert history/audit trail
-- **Clearly labeled as generation-only** — this prototype does not perform real SMS/email dispatch; it demonstrates the correct standardized output format that a production system would feed into a real alert-broadcast pipeline
+- **Clearly labeled as generation-only** — this prototype does not perform real SMS/email dispatch and is **not integrated with NDMA's or IMD's production alert-distribution infrastructure**; it demonstrates a standards-compliant output format that a production system could feed into such a pipeline
 
 ---
 
@@ -188,7 +188,7 @@ From any **VERIFIED** event, an admin can generate a standards-compliant **OASIS
 Stated openly, not hidden:
 
 - **Language support:** English + a Hindi keyword layer only. Full support for India's 22 official languages is a phased future rollout, not attempted in this prototype.
-- **Image authenticity:** basic EXIF-presence + timestamp-plausibility check only ("v1 signal"). Deep forensic/deepfake detection is documented future work.
+- **Media metadata validation:** basic EXIF-presence + timestamp-plausibility check only ("v1 signal") — this does not prove an image is authentic, only that its metadata is present and plausible. Deep forensic/deepfake detection is documented future work. 
 - **Admin access control:** a single shared token gate, not full per-user role-based access control (RBAC).
 - **Social media ingestion:** runs on Mock-Mode (see above) due to the real, current cost of Twitter/X API access.
 - **Architecture:** a deliberate single-process monolith (SQLite, no Docker, no Kafka/microservices) chosen for hackathon reliability and one-command reproducibility — architected to be extensible toward a distributed/streaming setup at production scale, not built as one now.
@@ -221,14 +221,15 @@ npm install
 npm run dev
 ```
 
-**Environment variables (all optional — the system works out-of-the-box with zero keys):**
+**Environment variables:**
 
-| Variable | Purpose |
-|---|---|
-| `ADMIN_TOKEN` | Required header value for Admin Panel access |
-| `OPENWEATHER_API_KEY` | Optional secondary official-data provider |
-| `TWITTER_BEARER_TOKEN` | Optional — switches social feed from Mock-Mode to live API |
-| `BACKEND_URL` | Ingestion scripts' target backend, default `http://localhost:8000` |
+| Variable | Required? | Purpose |
+|---|---|---|
+| `CARTO_API_KEY` | **Required** | CARTO now requires a free API key for basemap tile requests (5M requests/month free tier) — request one at [carto.com/basemaps/apikey](https://carto.com/basemaps/apikey/). Both CARTO and OpenStreetMap attribution must remain visible on the map per their terms. |
+| `ADMIN_TOKEN` | Required | Header value for Admin Panel access |
+| `OPENWEATHER_API_KEY` | Optional | Secondary reference-weather provider |
+| `TWITTER_BEARER_TOKEN` | Optional | Switches social feed from Mock-Mode to live API |
+| `BACKEND_URL` | Optional | Ingestion scripts' target backend, default `http://localhost:8000` |
 
 ---
 
@@ -267,24 +268,36 @@ WS     /ws/live                              → live event + anomaly broadcast
 
 ## 🏆 Competitive Differentiation
 
-Existing IMD tools (Mausam App, Damini lightning-alert app, Meghdoot agromet app) are **one-way broadcast systems** — official data flowing out, with zero citizen-input or social-media ingestion. Mausam Setu's core differentiation is combining, in one working system:
+Existing IMD tools (Mausam App, Damini lightning-alert app, Meghdoot agromet app) primarily focus on weather observation, forecasting, warnings, and dissemination. IMD does have some citizen-facing feedback channels (e.g. a Public Observation App for basic weather feedback), but no existing IMD tool we found combines automated multi-source ingestion with AI-based verification, deduplication, and aggregate anomaly detection in one pipeline.
 
-- Real multi-source ingestion (not just official broadcast)
+Mausam Setu's core differentiation is combining, in one working system:
+
+- Real multi-source ingestion (citizen reports, news, reference weather data, and a swappable social-media client)
 - An **explainable**, not opaque, verification engine
 - Duplicate detection
 - **Aggregate-level anomaly detection** (not just per-report checks)
-- **CAP-standard alert output** — tying results to a real emergency-alert format
+- **CAP-standard alert output** — tying results to a standardized emergency-alert format
 
-No comparable hackathon prototype reviewed during our research combined all of these in one working build.
+This combination — automated classification, deduplication, trust verification, and anomaly detection applied to heterogeneous public weather signals — is the platform's core differentiation.
 
 ---
 
 ## 📚 Research & References
 
-- IMD **Mausam App** — [mausam.imd.gov.in](https://mausam.imd.gov.in)
-- IITM Pune **Damini App** — lightning-strike alert system
-- IMD **Climate Hazard & Vulnerability Atlas** — [imdpune.gov.in/hazardatlas](https://imdpune.gov.in/hazardatlas)
-- **CrisisNLP / CrisisMMD / AIDR** — academic frameworks and datasets for crisis-related social media classification
-- IIT Kharagpur (WWW'18) — algorithmic filtering of fake social media posts during real-world disasters
-- **OASIS Common Alerting Protocol (CAP) v1.2** — international emergency-alert XML standard
-- **Mission Mausam** (Ministry of Earth Sciences) — national radar-expansion and panchayat-level forecasting initiative this platform is designed to complement
+- **IMD MAUSAM App** — India Meteorological Department's official mobile weather application providing observed weather, forecasts, radar imagery and weather warnings.
+  https://mausam.imd.gov.in/
+- **IITM Pune / ESSO DAMINI** — Lightning monitoring and location-based lightning alert application, developed by IITM Pune under MoES.
+  https://play.google.com/store/apps/details?id=com.lightening.app.damini
+- **IMD Climate Hazard & Vulnerability Atlas** — Climate hazard and vulnerability maps covering 13 hazard types.
+  https://www.imdpune.gov.in/hazardatlas/index.html
+- **CrisisNLP / CrisisMMD / AIDR** — academic frameworks and datasets (QCRI) for crisis-related social media classification.
+  https://crisisnlp.qcri.org/
+- **IIT Kharagpur** — AI-based fake disaster news detection research (Dept. of CSE, Prof. Saptarshi Ghosh's group).
+  https://www.preventionweb.net/quick/24161
+- **OASIS Common Alerting Protocol (CAP) v1.2** — international emergency-alert XML standard.
+  https://www.oasis-open.org/standard/cap/
+- **NDMA SACHET** — India's National Disaster Alert Portal, which is CAP-based; referenced here for context, not as a claim of direct integration.
+  https://sachet.ndma.gov.in/
+- **Mission Mausam** (Ministry of Earth Sciences) — Cabinet-approved national initiative (₹2,000 crore, radar-expansion and AI/ML-based forecasting) this platform is designed to complement.
+  https://www.moes.gov.in/sites/default/files/PIB2053898.pdf
+
