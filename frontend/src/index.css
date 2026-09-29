@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #F7F9FA;
+  --color-primary: #1F5B8C;   /* deep blue — official/trustworthy */
+  --color-accent: #E8A33D;    /* amber — pending/attention */
+  --color-critical: #C1444B;  /* reserved ONLY for SUSPICIOUS/high-severity */
+  --color-verified: #2E8B57;  /* green — VERIFIED only */
+  --text-primary: #202325;
+}
+
+body {
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  overflow-x: hidden;
+}
+
+/* Custom Leaflet Map styling */
+.leaflet-container {
+  font-family: 'Inter', sans-serif !important;
+  width: 100%;
+  height: 100%;
+  border-radius: 0.75rem;
+  z-index: 10;
+}
+
+.leaflet-popup-content-wrapper {
+  padding: 0;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 25px -5px rgba(31, 91, 140, 0.15), 0 8px 10px -6px rgba(31, 91, 140, 0.1);
+  overflow: hidden;
+  border: 1px solid #E2E8F0;
+}
+
+.leaflet-popup-content {
+  margin: 0;
+  line-height: 1.4;
+}
+
+/* Verification marker styling strictly adhering to the contract:
+   - solid = VERIFIED (#2E8B57)
+   - dashed = PENDING (#E8A33D)
+   - red outline = SUSPICIOUS (#C1444B - ONLY red on page!)
+   - greyed = DUPLICATE (#94A3B8)
+*/
+.marker-verified {
+  border: 2.5px solid #2E8B57 !important;
+  box-shadow: 0 0 10px rgba(46, 139, 87, 0.45);
+}
+
+.marker-pending {
+  border: 2.5px dashed #E8A33D !important;
+  box-shadow: 0 0 8px rgba(232, 163, 61, 0.35);
+}
+
+.marker-suspicious {
+  border: 2.5px solid #C1444B !important;
+  box-shadow: 0 0 12px rgba(193, 68, 75, 0.5);
+  animation: pulse-suspicious 2s infinite ease-in-out;
+}
+
+.marker-duplicate {
+  border: 2px solid #94A3B8 !important;
+  opacity: 0.45 !important;
+  filter: grayscale(80%);
+}
+
+@keyframes pulse-suspicious {
+  0%, 100% {
+    transform: scale(1);
+    box-shadow: 0 0 8px rgba(193, 68, 75, 0.4);
+  }
+  50% {
+    transform: scale(1.1);
+    box-shadow: 0 0 16px rgba(193, 68, 75, 0.7);
+  }
+}
+
+@keyframes pulse-live {
+  0% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.9);
+    opacity: 0.8;
+  }
+}
+
+.live-pulse {
+  animation: pulse-live 1.8s infinite ease-in-out;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
