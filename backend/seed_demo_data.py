@@ -9,7 +9,8 @@ from datetime import datetime, timezone, timedelta
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from database import init_db, SessionLocal
-from models import WeatherEventModel, OfficialReadingModel, AdminOverrideModel
+from models import WeatherEventModel, OfficialReadingModel, AdminOverrideModel, CapAlertModel
+from crud import create_cap_alert
 
 
 # City metadata with accurate coordinates, state, and typical climate patterns
@@ -278,6 +279,16 @@ def seed():
 
         db.commit()
         print("Seeding complete! 150 events, 25 official readings, and 4 admin overrides created.")
+
+        # Seed 2 realistic CapAlert records for verified weather events
+        print("Generating 2 seed CAP v1.2 Alerts (generatedBy 'system_seed')...")
+        verified_events = [e for e in created_events if e.verification_status == "VERIFIED"]
+        if len(verified_events) >= 2:
+            seed_event_1 = verified_events[0]
+            seed_event_2 = verified_events[1]
+            create_cap_alert(db=db, event=seed_event_1, admin_username="system_seed", radius_km=15.0)
+            create_cap_alert(db=db, event=seed_event_2, admin_username="system_seed", radius_km=25.0)
+            print("Successfully generated 2 seed CAP v1.2 alerts in Alert History.")
 
     finally:
         db.close()
