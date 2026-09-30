@@ -60,6 +60,9 @@ def calculate_corroboration(
     +5 per independent same-eventType report in same city within 3h, capped at +30.
     Returns: (corroborationBoost, corroborationCount)
     """
+    if event_type == "UNKNOWN":
+        return 0, 0
+
     if not recent_events or not isinstance(recent_events, list):
         return 0, 0
 
@@ -82,8 +85,9 @@ def calculate_corroboration(
         if event.get("duplicateOfId") or event.get("verificationStatus") == "DUPLICATE":
             continue
 
-        # Must match same eventType
-        if event.get("eventType") != event_type:
+        # Must match same eventType and skip UNKNOWN
+        cand_event_type = event.get("eventType") or event.get("event_type")
+        if not cand_event_type or cand_event_type == "UNKNOWN" or cand_event_type != event_type:
             continue
 
         # Must match same city (case-insensitive)
@@ -210,16 +214,11 @@ def evaluate_image_check(report: Dict[str, Any]) -> int:
       Media present + EXIF/timestamp plausible -> +10
       Media present + implausible/missing EXIF -> -10
       No media -> +0
-
-    NOTE: Full image forensics / deep-learning verification is a future milestone.
-    This module implements the v1 signal based on EXIF presence and timestamp plausibility.
     """
     media_urls = report.get("mediaUrls") or report.get("media_urls") or []
     if not media_urls or not isinstance(media_urls, list) or len(media_urls) == 0:
         return 0
 
-    # Media is present: inspect metadata for EXIF plausibility
-    # Check mediaMeta, sourceMeta, or exif dictionaries attached to report
     meta = (
         report.get("mediaMeta")
         or report.get("media_meta")
@@ -228,25 +227,21 @@ def evaluate_image_check(report: Dict[str, Any]) -> int:
         or {}
     )
 
-    # 1. Explicit boolean flag if caller already parsed EXIF
     if meta.get("exifPlausible") is True or meta.get("exif_plausible") is True:
         return 10
     if meta.get("exifPlausible") is False or meta.get("exif_plausible") is False:
         return -10
 
-    # 2. Check EXIF timestamp plausibility relative to reportedAt
     exif_time = _parse_timestamp(meta.get("dateTimeOriginal") or meta.get("exifTimestamp"))
     report_time = _parse_timestamp(report.get("reportedAt") or report.get("reported_at"))
 
     if exif_time and report_time:
         diff_hours = abs((report_time - exif_time).total_seconds()) / 3600.0
-        # If photo timestamp is within 24 hours of report, plausible
         if diff_hours <= 24.0:
             return 10
         else:
             return -10
 
-    # If hasExif is explicitly False or no EXIF metadata provided at all -> missing EXIF (-10)
     if meta.get("hasExif") is True:
         return 10
 
@@ -259,7 +254,8 @@ def compute_verification(
     is_duplicate: bool,
     duplicate_of_id: Optional[str],
     recent_events: List[Dict[str, Any]],
-    official_readings: List[Dict[str, Any]]
+    official_readings: List[Dict[str, Any]],
+    classification_failed: bool = False
 ) -> Dict[str, Any]:
     """
     Calculates the full factorBreakdown, trustScore, and verificationStatus.
@@ -267,15 +263,21 @@ def compute_verification(
       {
         "trustScore": int,
         "verificationStatus": str,
-        "factorBreakdown": {
-          "sourceTrust": int,
-          "corroborationBoost": int,
-          "crossMatchOfficial": int,
-          "imageCheck": int
-        },
+        "factorBreakdown": dict,
         "corroborationCount": int
       }
     """
+    # FIX PART 3: Trust scoring bypass for classification failures
+    if classification_failed or event_type == "UNKNOWN":
+        return {
+            "trustScore": 15,
+            "verificationStatus": "SUSPICIOUS",
+            "factorBreakdown": {
+                "classificationCheck": "Content did not match any recognized weather event pattern (score fixed at 15)"
+            },
+            "corroborationCount": 0
+        }
+
     source = report.get("source") or "CITIZEN"
     source_trust = calculate_source_trust(source)
 
@@ -295,9 +297,6 @@ def compute_verification(
 
     if is_duplicate:
         verification_status = "DUPLICATE"
-    elif event_type == "UNKNOWN":
-        trust_score = min(trust_score, 25)
-        verification_status = "SUSPICIOUS"
     elif trust_score >= 70:
         verification_status = "VERIFIED"
     elif trust_score >= 40:
