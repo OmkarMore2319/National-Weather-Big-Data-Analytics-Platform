@@ -1,4 +1,4 @@
-# 🚀 RUN_EVERYTHING.md — Complete Local Run Sequence (No Docker)
+# 🚀 RUN_EVERYTHING.md — Complete Local Run Sequence 
 
 **National Weather Big Data Analytics Platform (PS 26069)**  
 *Self-Contained Local Execution Guide across Windows, macOS, and Linux*
@@ -15,38 +15,48 @@
 
 ---
 
-## ⚡ The 4-Process End-to-End Run Sequence
+## ⚡ The 6-Process End-to-End Run Sequence
 
-To start the entire platform from scratch, open **four separate terminal windows** (no containers, no background daemons that hide crashes):
+To start the entire platform from scratch, open **six separate terminal windows** (no containers, no background daemons that hide crashes). Terminals 1–4 are required; Terminals 5 and 6 are strongly recommended so the dashboard shows genuinely live news and weather data, not just seeded/simulated content.
+```bash
++-----------------------------------------------------------------------+
+| Terminal 1: FastAPI Backend (Port 8010) |
+| cd backend |
+| venv\Scripts\activate (or source venv/bin/activate on Unix) |
+| python -m uvicorn main:app --reload --port 8010 --host 127.0.0.1 |
++-----------------------------------------------------------------------+
 
++-----------------------------------------------------------------------+
+| Terminal 2: Database Seeder (Run Once) |
+| cd backend |
+| venv\Scripts\activate |
+| python seed_demo_data.py |
++-----------------------------------------------------------------------+
+
++-----------------------------------------------------------------------+
+| Terminal 3: Frontend Dev Server (Port 5173) |
+| cd frontend |
+| npm run dev |
++-----------------------------------------------------------------------+
+
++-----------------------------------------------------------------------+
+| Terminal 4: High-Velocity Live Stream Demo Mode |
+| python run_demo_mode.py |
+| (Or double-click demo_mode.bat on Windows / ./demo_mode.sh on Unix) |
++-----------------------------------------------------------------------+
+
++-----------------------------------------------------------------------+
+| Terminal 5: Real Live News/RSS Ingestion (Recommended) |
+| cd ingestion |
+| python news_rss_scraper.py --interval 45 |
++-----------------------------------------------------------------------+
+
++-----------------------------------------------------------------------+
+| Terminal 6: Real Live Official Weather Data Puller (Recommended) |
+| cd ingestion |
+| python official_puller.py --interval 180 |
++-----------------------------------------------------------------------+
 ```
-+-----------------------------------------------------------------------+
-|  Terminal 1: FastAPI Backend (Port 8010)                              |
-|  cd backend                                                           |
-|  venv\Scripts\activate          (or source venv/bin/activate on Unix) |
-|  python -m uvicorn main:app --reload --port 8010 --host 127.0.0.1     |
-+-----------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------+
-|  Terminal 2: Database Seeder (Run Once)                               |
-|  cd backend                                                           |
-|  venv\Scripts\activate                                                |
-|  python seed_demo_data.py                                             |
-+-----------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------+
-|  Terminal 3: Frontend Dev Server (Port 5173)                          |
-|  cd frontend                                                          |
-|  npm run dev                                                          |
-+-----------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------+
-|  Terminal 4: High-Velocity Live Stream Demo Mode                      |
-|  python run_demo_mode.py                                              |
-|  (Or double-click demo_mode.bat on Windows / ./demo_mode.sh on Unix)  |
-+-----------------------------------------------------------------------+
-```
-
 ---
 
 ## 🛠️ Step-by-Step Instructions by Operating System
@@ -123,7 +133,7 @@ npm run dev
 
 ### 4. Terminal 4: Automated Ingestion & Live Demo Mode
 
-To demonstrate real-time high-velocity ingestion during a 3–5 minute judging presentation without manually running multiple scripts:
+To demonstrate real-time high-velocity ingestion :
 
 #### Windows:
 ```cmd
@@ -140,22 +150,34 @@ chmod +x demo_mode.sh
 ./demo_mode.sh
 ```
 
-#### Running Ingestion Feed Components Individually (Optional):
-If judges ask to see individual feeder components running standalone:
+### 5. Terminal 5: Real Live News/RSS Ingestion (Recommended)
+
+Continuously scrapes real, live weather-related headlines from Google News (India Weather search), The Hindu, and Indian Express RSS feeds, geocodes each item locally against a 300-city lookup table, and posts them to the backend as `NEWS_RSS` events. This is genuine live data, not simulated.
+
 ```bash
 cd ingestion
-
-# 1. Social Media Mock Replay Client
-python social_simulated_feed.py --rate 2.0
-
-# 2. News RSS Feed Scraper (India National & Regional Feeds)
-python news_rss_scraper.py
-
-# 3. Official Station Weather Puller (Open-Meteo IMD Station Corroboration)
-python official_puller.py
+python news_rss_scraper.py --interval 45
 ```
 
+- `--interval 45` — re-scrapes every 45 seconds, frequent enough to feel live without over-polling the RSS feeds.
+- Leave this running for the duration of your session (not just during the judged demo window) so the dashboard reflects genuinely current news.
+
 ---
+
+### 6. Terminal 6: Real Live Official Weather Data Puller (Recommended)
+
+Continuously pulls real, live current weather conditions (temperature, rainfall, wind, sky condition) for 32 major Indian cities from the free Open-Meteo API, and posts them to the backend as `OFFICIAL_STATION` (reference weather data) events, used by the verification engine's cross-match factor.
+
+```bash
+cd ingestion
+python official_puller.py --interval 180
+```
+
+- `--interval 180` — re-pulls every 180 seconds (3 minutes). A longer interval than the RSS scraper is intentional: real weather conditions change slowly minute-to-minute, so polling less frequently is both sufficient and considerate of the free API's rate limits.
+- Leave this running for the duration of your session for the same reason as Terminal 5.
+
+---
+
 
 ## 🧪 Running Standalone Verification Tests
 
