@@ -18,45 +18,38 @@
 ## ⚡ The 6-Process End-to-End Run Sequence
 
 To start the entire platform from scratch, open **six separate terminal windows** (no containers, no background daemons that hide crashes). Terminals 1–4 are required; Terminals 5 and 6 are strongly recommended so the dashboard shows genuinely live news and weather data, not just seeded/simulated content.
-
-+-----------------------------------------------------------------------+
-| Terminal 1: FastAPI Backend (Port 8010) |
-| cd backend |
-| venv\Scripts\activate (or source venv/bin/activate on Unix) |
-| python -m uvicorn main:app --reload --port 8010 --host 127.0.0.1 |
-+-----------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------+
-| Terminal 2: Database Seeder (Run Once) |
-| cd backend |
-| venv\Scripts\activate |
-| python seed_demo_data.py |
-+-----------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------+
-| Terminal 3: Frontend Dev Server (Port 5173) |
-| cd frontend |
-| npm run dev |
-+-----------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------+
-| Terminal 4: High-Velocity Live Stream Demo Mode |
-| python run_demo_mode.py |
-| (Or double-click demo_mode.bat on Windows / ./demo_mode.sh on Unix) |
-+-----------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------+
-| Terminal 5: Real Live News/RSS Ingestion (Recommended) |
-| cd ingestion |
-| python news_rss_scraper.py --interval 45 |
-+-----------------------------------------------------------------------+
-
-+-----------------------------------------------------------------------+
-| Terminal 6: Real Live Official Weather Data Puller (Recommended) |
-| cd ingestion |
-| python official_puller.py --interval 180 |
-+-----------------------------------------------------------------------+
-
+```bash
+Terminal 1: FastAPI Backend (Port 8010) 
+ cd backend 
+ venv\Scripts\activate (or source venv/bin/activate on Unix) 
+ python -m uvicorn main:app --reload --port 8010 --host 127.0.0.1 
+```
+```bash
+ Terminal 2: Database Seeder (Run Once) 
+ cd backend 
+ venv\Scripts\activate 
+ python seed_demo_data.py 
+```
+```bash
+Terminal 3: Frontend Dev Server (Port 5173) 
+ cd frontend 
+ npm run dev 
+```
+```bash
+ Terminal 4: High-Velocity Live Stream Demo Mode 
+ python run_demo_mode.py 
+ (Or double-click demo_mode.bat on Windows / ./demo_mode.sh on Unix) 
+```
+```bash
+ Terminal 5: Real Live News/RSS Ingestion (Recommended) 
+ cd ingestion 
+ python news_rss_scraper.py --interval 45 
+```
+```bash
+Terminal 6: Real Live Official Weather Data Puller (Recommended) 
+ cd ingestion 
+ python official_puller.py --interval 180 
+```
 ---
 
 ## 🛠️ Step-by-Step Instructions by Operating System
