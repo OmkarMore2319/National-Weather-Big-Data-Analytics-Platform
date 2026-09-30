@@ -75,7 +75,7 @@ def classify_and_score(
         # Step 1: Event Classification
         raw_text = report.get("rawText") or report.get("raw_text") or ""
         classifier = get_classifier()
-        event_type, confidence = classifier.classify(raw_text)
+        event_type, confidence, classification_failed = classifier.classify(raw_text)
 
         # Step 2: Semantic Duplicate Detection
         # Similarity > 0.85 AND same eventType -> mark DUPLICATE, set duplicateOfId
@@ -93,7 +93,8 @@ def classify_and_score(
             is_duplicate=is_duplicate,
             duplicate_of_id=duplicate_of_id,
             recent_events=recent_events,
-            official_readings=official_readings
+            official_readings=official_readings,
+            classification_failed=classification_failed
         )
 
         # Construct final output dictionary matching Shared Technical Contract
@@ -113,12 +114,9 @@ def classify_and_score(
             "eventType": "UNKNOWN",
             "classificationConfidence": 0.0,
             "verificationStatus": "SUSPICIOUS",
-            "trustScore": 20,
+            "trustScore": 15,
             "factorBreakdown": {
-                "sourceTrust": 40,
-                "corroborationBoost": 0,
-                "crossMatchOfficial": 0,
-                "imageCheck": 0
+                "classificationCheck": "Content did not match any recognized weather event pattern (score fixed at 15)"
             },
             "corroborationCount": 0,
             "duplicateOfId": None
@@ -148,4 +146,3 @@ def preload_models():
         logger.info("ML models preloaded, backend ready")
     except Exception as err:
         logger.warning(f"Error during ML model preloading: {err}")
-
