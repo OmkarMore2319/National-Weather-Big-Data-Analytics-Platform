@@ -18,7 +18,7 @@
 ## ⚡ The 6-Process End-to-End Run Sequence
 
 To start the entire platform from scratch, open **six separate terminal windows** (no containers, no background daemons that hide crashes). Terminals 1–4 are required; Terminals 5 and 6 are strongly recommended so the dashboard shows genuinely live news and weather data, not just seeded/simulated content.
-```bash
+
 +-----------------------------------------------------------------------+
 | Terminal 1: FastAPI Backend (Port 8010) |
 | cd backend |
@@ -56,7 +56,7 @@ To start the entire platform from scratch, open **six separate terminal windows*
 | cd ingestion |
 | python official_puller.py --interval 180 |
 +-----------------------------------------------------------------------+
-```
+
 ---
 
 ## 🛠️ Step-by-Step Instructions by Operating System
