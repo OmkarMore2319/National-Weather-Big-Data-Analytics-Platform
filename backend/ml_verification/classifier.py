@@ -79,7 +79,7 @@ EVENT_KEYWORDS: Dict[str, Dict[str, List[str]]] = {
     },
     "RAINFALL": {
         "en": [
-            "rain", "raining", "downpour", "drizzle", "drizzling", "shower",
+            "rain", "rains", "rainfall", "raining", "downpour", "downpours", "drizzle", "drizzling", "shower", "showers",
             "monsoon", "torrential", "precipitation", "wet", "drenching", "pouring"
         ],
         "hi_dev": ["बारिश", "वर्षा", "बरसात", "बूंदाबांदी", "झमाझम", "मूसलाधार", "रिमझिम"],
@@ -144,13 +144,13 @@ class WeatherClassifier:
         conf = min(0.95, 0.65 + (match_count * 0.10))
         return best_cat, round(conf, 3), match_count
 
-    def classify(self, text: str) -> Tuple[str, float]:
+    def classify(self, text: str) -> Tuple[str, float, bool]:
         """
         Classifies incoming report text into one of the 7 WeatherEvent categories.
-        Guaranteed to return (eventType, confidence) without throwing exceptions.
+        Returns: (eventType, confidence, classificationFailed)
         """
         if not text or not isinstance(text, str) or not text.strip():
-            return "UNKNOWN", 0.0
+            return "UNKNOWN", 0.0, True
 
         clean_text = text.strip()
 
@@ -168,29 +168,30 @@ class WeatherClassifier:
                 ml_cat = classes[best_idx]
                 ml_conf = float(probabilities[best_idx])
 
+                # FIX PART 2: If classifier confidence < 0.4 AND keyword-rule fallback finds 0 matches
+                if ml_conf < 0.40 and rule_matches == 0:
+                    return "UNKNOWN", round(ml_conf, 3), True
+
                 # Disambiguation / Blending Logic:
                 # 1. FLOODING vs RAINFALL: "waterlogging/submerged" is specifically FLOODING
                 if rule_matches > 0 and rule_cat == "FLOODING" and ml_cat == "RAINFALL":
-                    return "FLOODING", round(max(rule_conf, ml_conf), 3)
+                    return "FLOODING", round(max(rule_conf, ml_conf), 3), False
 
                 # 2. THUNDERSTORM vs RAINFALL: "lightning/thunder" is specifically THUNDERSTORM
                 if rule_matches > 0 and rule_cat == "THUNDERSTORM" and ml_cat == "RAINFALL":
-                    return "THUNDERSTORM", round(max(rule_conf, ml_conf), 3)
+                    return "THUNDERSTORM", round(max(rule_conf, ml_conf), 3), False
 
                 # 3. DUST_STORM vs STRONG_WIND: "sand/dust" is specifically DUST_STORM
                 if rule_matches > 0 and rule_cat == "DUST_STORM" and ml_cat == "STRONG_WIND":
-                    return "DUST_STORM", round(max(rule_conf, ml_conf), 3)
+                    return "DUST_STORM", round(max(rule_conf, ml_conf), 3), False
 
                 # 4. If ML is confident (>= 0.50), trust ML
                 if ml_conf >= 0.50:
-                    return ml_cat, round(ml_conf, 3)
+                    return ml_cat, round(ml_conf, 3), False
 
                 # 5. If ML confidence is lower (< 0.50), fall back to keyword rule if available
                 if rule_matches > 0:
-                    return rule_cat, round(rule_conf, 3)
-
-                # 6. Fall back to ML best guess rather than returning UNKNOWN
-                return ml_cat, round(max(ml_conf, 0.40), 3)
+                    return rule_cat, round(rule_conf, 3), False
 
             except Exception:
                 # In case of any ML transform/predict anomaly, fall back to rule
@@ -198,10 +199,10 @@ class WeatherClassifier:
 
         # If model is not loaded or failed:
         if rule_matches > 0:
-            return rule_cat, round(rule_conf, 3)
+            return rule_cat, round(rule_conf, 3), False
 
-        # Never return UNKNOWN silently on actual text, provide best guess with low confidence
-        return "RAINFALL", 0.35
+        # FIX PART 2: Both ML and Keyword methods failed to find any weather signal
+        return "UNKNOWN", 0.0, True
 
 
 # Singleton instance
